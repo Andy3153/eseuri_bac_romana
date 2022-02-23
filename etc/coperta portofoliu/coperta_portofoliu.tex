@@ -9,6 +9,17 @@ a4paper
 \usepackage[T1]{fontenc}            % Proper hyphenation
 \usepackage[romanian]{babel}        % Romanian characters support
 \usepackage[top=9cm]{geometry}      % Increase top margin height
+\usepackage{hyperref}               % Hyperlink support
+\usepackage{graphicx}               % Image support
+
+% Image configuration
+\graphicspath{ {./src/} }
+
+% Hyperlink configuration
+\hypersetup{
+colorlinks=true,
+urlcolor=black,
+}
 
 % Page numbering
 \pagenumbering{gobble} % uncomment if you want to disable it
@@ -37,7 +48,14 @@ a4paper
  \vspace{0.5cm}
  {\LARGE Dobrete Andrei-Robert}
 
- \vspace{11cm}
- \LaTeX
+ \vspace{10.26cm}
+ \includegraphics[height=\fontcharht\font`\B]{gitlab}
+ \url{gitlab.com/Andy3153/esee_bac_romana}
+
+ \includegraphics[height=\fontcharht\font`\B]{github}
+ \url{github.com/Andy3153/esee_bac_romana}
+
+ \vspace{0.5cm}
+ {\large\LaTeX}
 \end{center}
 \end{document}
