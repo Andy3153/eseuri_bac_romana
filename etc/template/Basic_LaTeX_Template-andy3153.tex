@@ -3,6 +3,7 @@
 %% created   04/10/21 ~ 18:21:32
 %% modified1 15/10/21 ~ 23:15:05
 %% modified2 03/11/21 ~ 18:37:45
+%% modified3 22/02/22 ~ 12:48:17
 %%
 
 % Document preamble
@@ -32,11 +33,11 @@ marginparsep=3mm             % Space between margin and text
 %\pagenumbering{gobble} % uncomment if you want to disable it
 
 % Custom commands
-% Format: \newcommand{\command}{action (add '\ ' or '{}' if it won't add a space properly)}
+% Format: \newcommand{\command}[variable]{action #variable (add '\ ' or '{}' if it won't add a space properly)}
 \newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}} % Roman numerals
-\newcommand{\textbfit}[1]{\textbf{\textit{#1}}} % combine bold and italic
-\newcommand{\operatitle}{\textbf{\textit{\ }}} % title of the commented opera
-\newcommand{\operaauthor}{\ } % author of the commented opera
+\newcommand{\textbfit}[1]{\textbf{\textit{#1}}}                      % combine bold and italic
+\newcommand{\operatitle}{\textbf{\textit{\ }}}                       % title of text
+\newcommand{\operaauthor}{\ }                                        % author of text
 
 % Basic document info
 \title{}
