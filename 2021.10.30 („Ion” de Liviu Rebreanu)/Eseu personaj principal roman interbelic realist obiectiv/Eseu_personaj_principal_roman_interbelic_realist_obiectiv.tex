@@ -1,65 +1,44 @@
-% Document preamble
-\documentclass[
-12pt,
-a4paper
-]{article}
+% Include the preamble
+\input{../../preamble.tex}
 
-% Packages
-\usepackage[utf8]{inputenc}         % UTF-8 support
-\usepackage[T1]{fontenc}            % Proper hyphenation
-\usepackage[romanian]{babel}        % Romanian characters support
-\usepackage{indentfirst}            % Add paragraph indentation even after a section
-\usepackage[margin=2.7cm, marginparwidth=2cm, marginparsep=3mm]{geometry} % Make document margins smaller
-\usepackage{marginnote}             % Notes on the margins of a document (more advanced \marginpar)
-\usepackage{titlesec}               % Customize titles
+\newcommand{\operatitle}{\textbfit{„Ion”}} % title of the text
+\newcommand{\operaauthor}{Liviu Rebreanu} % author of the text
 
-% Custom titles, sections, subsections etc. format
-\titleformat*{\section}{\large\bfseries}
-\titleformat{\subsection}{\normalfont\normalfont\bfseries}{}{0pt}{}
-
-% Page numbering
-%\pagenumbering{gobble} % uncomment if you want to disable it
-
-% Custom commands
-% Format: \newcommand{\command}{action (add '\ ' or '{}' if it won't add a space properly)}
-\newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}} % Roman numerals
-\newcommand{\operatitle}{\textbf{\textit{„Ion”\ }}} % title of the commented opera
-\newcommand{\operaauthor}{Liviu Rebreanu\ } % author of the commented opera
-
-% Basic document info
 \title{Eseu despre particularitățile de construcție a personajului principal dintr-un roman interbelic}
-\date{}   % Show no date in the title
-\author{} % Empty author to not get a warn about missing author
+
 
 \begin{document}
 \maketitle % Show the title
 %\reversemarginpar % put margin notes on left instead of on right
 
-
 % Beginning of text
+
 
 \subsection{Context}
 
-\operatitle, primul roman publicat de \operaauthor (în 1920), este un roman realist de tip obiectiv, cu tematică rurală, o capodoperă a literaturii române interbelice. Nucleul romanului se află în nuvelele anterioare, \textbf{\textit{„Zestrea”}} și \textbf{\textit{„Rușinea”}}, iar sursele de inspirație sunt trei experiențe de viață ale autorului receptate artistic: gestul țăranului care a sărutat pământul, vorbele lui Ion al Glanetașului și bătaia primită de la tatăl ei de o fată cu zestre din cauza unui țăran sărac.
+\operatitle, primul roman publicat de \operaauthor\ (în 1920), este un roman realist de tip obiectiv, cu tematică rurală, o capodoperă a literaturii române interbelice. Nucleul romanului se află în nuvelele anterioare, \textbfit{„Zestrea”} și \textbfit{„Rușinea”}, iar sursele de inspirație sunt trei experiențe de viață ale autorului receptate artistic: gestul țăranului care a sărutat pământul, vorbele lui Ion al Glanetașului și bătaia primită de la tatăl ei de o fată cu zestre din cauza unui țăran sărac.
+
 
 \section{Încadrarea romanului studiat într-o tipologie, într-un curent cultural/literar, într-o orientare tematică}
 
 \marginnote{specie}[0.3cm]
-Opera literară \operatitle este un roman, prin amploarea acțiunii, desfășurată pe mai multe planuri, cu un un conflict complex, personaje numeroase și realizarea unei imagini ample asupra vieții.
+Opera literară \operatitle\ este un roman, prin amploarea acțiunii, desfășurată pe mai multe planuri, cu un un conflict complex, personaje numeroase și realizarea unei imagini ample asupra vieții.
 
 \marginnote{tipologie}[0.3cm]
 Este roman de tip obiectiv prin specificul naratorului (obiectiv, detașat, impersonal), al narațiunii (la persoana a \rom{3}-a) și a relației narator-personaj (naratorul omniscient și omniprezent).
 
-\marginnote{curent literar}[0.8cm]
+\marginnote{curent literar}[0.3cm]
 Viziunea realist-obiectivă e realizează prin: tematica socială, obiectivitatea perspectivei narative, construirea personajelor în relație cu mediul în care acestea trăiesc, alegerea unor personaje tipice pentru o categorie socială, tehnica detaliului semnificativ, veridicitatea, stilul sobru, impersonal.
 
 \marginnote{titlul}[0.4cm]
 Titlul este dat de numele personajului principal, care devine exponent al țărănimii prin dragostea lui pentru pământ, individualizat însă prin modul în care îl obține.
 
-\section{Ilustrarea temei prin episoade/citate/secvențe comentate}
+
+\section{Ilustrarea temei romanului studiat prin episoade/citate/sec\-ven\-țe comentate}
 
 \marginnote{tema}[0.3cm]
-Tema romanului este \textit{problematica pământului}, analizată în condițiile socio-e\-co\-no\-mi\-ce ale satului ardelenesc de la începutul secolului al \rom{20}-lea. Tema centrală, posesiunea pământului, este dublată de \textit{tema iubirii} și de \textit{tema destinului}.
+Tema romanului este \textit{problematica pământului}, analizată în condițiile socio-economice ale satului ardelenesc de la începutul secolului al \rom{20}-lea. Tema centrală, posesiunea pământului, este dublată de \textit{tema iubirii} și de \textit{tema destinului}.
+
 
 \section{Prezentarea statutului social, psihologic, moral etc. al personajului ales, prin raportare la conflictul/conflictele din textul narativ studiat}
 
@@ -70,33 +49,34 @@ Abordarea personajelor ca tipologii este specifică realismului, ca și importan
 \marginnote{conflicte}[0.3cm]
 Conflictul central, lupta pentru pământ în satul tradițional, între „sărăntocul” Ion al Glanetașului și „bocotanul” Vasile Baciu, este dublat de conflictul interior, între \textit{glasul pământului} și \textit{glasul iubirii}, simbolizate de cele două femei dorite de Ion: Ana și Florica. Personajul principal este implicat și în conflicte secundare, cu Simion Lungu, pentru o brazdă de pământ, sau cu George Bulbuc, pentru femeia iubită.
 
-\marginnote{Ion - personaj tipic}[-0.3cm]
+\marginnote{Ion -- personaj tipic}[-0.3cm]
 Ion al Glanetașului este un erou puternic individualizat, dar totodată tipic pentru categoria țăranilor săraci.
 
 \marginnote{tehnica basoreliefului și a contrapunctului}[0.5cm]
-Ion este personajul principal, eponim și \textit{„rotund”}. Realizat prin tehnica basoreliefului, domină celelalte personaje implicate în conflict, care-i pun în lumină trăsăturile. Tipologia personajului se reliefează și printr-o tehnică a contrapunctului: imaginea lui Ion cel sărac, dar frumos și puternic, este pusă în paralel cu imaginea lui George bulbuc, flăcăul bogat, dar mătăhălos; Ion o iubește pe Florica, dar o ia pe Ana de nevastă, în timp ce George o vrea pe Ana, dar o ia pe Florica.
+Ion este personajul principal, eponim și \textit{„rotund”}. Realizat prin tehnica basoreliefului, domină celelalte personaje implicate în conflict, care-i pun în lumină trăsăturile. Tipologia personajului se reliefează și printr-o tehnică a contrapunctului: imaginea lui Ion cel sărac, dar frumos și puternic, este pusă în paralel cu imaginea lui George Bulbuc, flăcăul bogat, dar mătăhălos; Ion o iubește pe Florica, dar o ia pe Ana de nevastă, în timp ce George o vrea pe Ana, dar o ia pe Florica.
 
 \marginnote{tipologii realiste}[0.6cm]
 Din punctul de vedere al statutului social, el este tipul țăranului sărac, a cărui patimă pentru pământ izvorăște din convingerea  că averea îi asigură demnitatea și îi asigură respectul comunității. Din punct de vedere moral, Ion este tipul arivistului fără scrupule, care folosește femeia ca mijloc de parvenire. Psihologic, este ambițiosul dezumanizat de lăcomie.
 
+
 \section{Relevarea unei trăsături a personajului ales, ilustrate prin episoade/citate/secvențe comentate}
 
-Ion este un personaj complex, cu însușiri contradictorii: viclenie și naivitate, gingășie și brutalitate; în plus, el este perseverent și cinic. La începutul romanului i se face un portret favorabil, acțiunile sale fiind motivate de nevoia de a-și depăși condiția. Însă an goana pătimașă după avere, el se dezumanizează treptat, iar moartea lui este expresia intenției moralizatoare a scriitorului.
+Ion este un personaj complex, cu însușiri contradictorii: viclenie și naivitate, gingășie și brutalitate; în plus, el este perseverent și cinic. La începutul romanului i se face un portret favorabil, acțiunile sale fiind motivate de nevoia de a-și depăși condiția. Însă în goana pătimașă după avere, el se dezumanizează treptat, iar moartea lui este expresia intenției moralizatoare a scriitorului.
 
 \marginnote{trăsătura principală: dragostea pentru pământ}[0.3cm]
-Principala sa trăsătură , dragostea pentru pământ și pentru muncă, este motivată prin apartenența la tipologia socială a țăranului sărac.
+Principala sa trăsătură, dragostea pentru pământ și pentru muncă, este motivată prin apartenența la tipologia socială a țăranului sărac.
 
 Deși sărac, este \textit{„iute și harnic, ca mă-sa”}, iubește munca și pământul: \textit{„pământul îi era drag ca ochii din cap”}. De aceea, lipsa pământului îi pare o umilință, iar dorința pătimașă de a-l avea este oarecum motivată: \textit{„Toată istețimea lui nu plătește o ceapă degerată, dacă n-are și el pământ mult, mult...”} (caracterizare directă de către narator).
 
 \marginnote{lăcomia de pământ}[0.8cm]
-Lăcomia de pământ, cauza psihologică a acțiunilor sale, este sintetizată în vorbele copilului de odinioară: \textit{„Iubirea pământului l-a stăpânit de mic copil. [...] De pe atunci i-a fost mai drag ca o mamă”}.
+Lăcomia de pământ, cauza psihologică a acțiunilor sale, este sintetizată în vorbele copilului de odinioară: \textit{„Iubirea pământului l-a stăpânit de mic copil.} [...] \textit{De pe atunci i-a fost mai drag ca o mamă”}.
 
 \textit{„Iubirea pământului”} și \textit{„hotărârea pătimașă”} cresc în sufletul tânărului sărac și ambițios, care găsește calea de a se îmbogăți prin căsătoria cu o fată bogată. Cum Vasile Baciu nu i-ar fi dat fata de bunăvoie, Ion decide să o seducă pe Ana. \textit{„Lăcomia lui de zestre e centrul lumii”}, explică G. Călinescu.
 
 Lăcomia se manifestă pentru prima dată atunci când intră cu plugul pe locul lui Simion Lungu, pentru că acesta fusese înainte al Glanetașilor.
 
 \marginnote{viclenie și naivitate}[0.8cm]
-Ion este viclean cu Ana. Deși nu o iubește, o joacă la horă, o seduce, apoi se înstrăinează, iar căsătoria nu reprezintă decât mijlocul de a obține averea de la Baciu. Este însă și naiv, deoarece nunta nu îi aduce pământul, fără o foaie de zestre. Este rândul lui Vasile Baciu să se arate viclean. După nuntă, începe coșmarul Anei, bătută și alungată fără milă de cei doi bărbați. După un timp, la intervenția preotului Belciug, Vasile trece tot pământul pe numele ginerelui.
+Ion este viclean cu Ana. Deși nu o iubește, o joacă la horă, o seduce, apoi se înstrăinează, iar căsătoria nu reprezintă decât mijlocul de a obține averea de la Baciu. Este însă și naiv, deoarece nunta nu îi aduce și pământul, fără o foaie de zestre. Este rândul lui Vasile Baciu să se arate viclean. După nuntă, începe coșmarul Anei, bătută și alungată fără milă de cei doi bărbați. După un timp, la intervenția preotului Belciug, Vasile trece tot pământul pe numele ginerelui.
 
 \marginnote{brutalitate urmată de indiferență}[-0.1cm]
 Brutalitatea față de Ana este înlocuită de indiferență. Sinuciderea ei nu-l tulbură, și nici moartea copilului. Viața lor nu reprezintă decât o garanție a proprietății asupra pământurilor lui Vasile Baciu.
@@ -107,7 +87,8 @@ Scena în care Ion, amețit de fericire, îngenunchează și-și sărută pămâ
 Instinctul de posesie asupra pământului fiind satisfăcut, lăcomia lui se îndreaptă către satisfacerea altei nevoi lăuntrice: patima pentru Florica. Așa cum râvnise la averea altuia, acum râvnește la nevasta lui George. Are relevația adevăratei fericiri: iubirea, pe care o vrea cu orice preț. \textit{„Să știu bine că fac moarte de om și tot a mea ai să fii”}, îi spune el Floricăi. Avertizat de Savista, George îl ucide cu lovituri de sapă pe Ion, venit noaptea în curtea lui, la Florica.
 
 \marginnote{caracterizare directă și indirectă}[0.1cm]
-Este caracterizat direct (de către narator: „Iubirea pământului l-a stăpânit de mic copil”, de alte personaje: Vasile Baciu îl face \textit{„hoț”} și \textit{„tâlhar”} și prin intermediul autocaracterizării) și indirect (prin fapte, limbaj, atitudini, comportament, relații cu alte personaje, gesturi, vestimentație).
+Este caracterizat direct (de către narator: \textit{„Iubirea pământului l-a stăpânit de mic copil”}, de alte personaje: Vasile Baciu îl face \textit{„hoț”} și \textit{„tâlhar”} și prin intermediul autocaracterizării) și indirect (prin fapte, limbaj, atitudini, comportament, relații cu alte personaje, gesturi, vestimentație).
+
 
 \subsection{Concluzie}
 

@@ -1,83 +1,62 @@
-% Document preamble
-\documentclass[
-12pt,
-a4paper
-]{article}
+% Include the preamble
+\input{../../preamble.tex}
 
-% Packages
-\usepackage[utf8]{inputenc}         % UTF-8 support
-\usepackage[T1]{fontenc}            % Proper hyphenation
-\usepackage[romanian]{babel}        % Romanian characters support
-\usepackage{indentfirst}            % Add paragraph indentation even after a section
-\usepackage[margin=2.7cm, marginparwidth=2cm, marginparsep=3mm]{geometry} % Make document margins smaller
-\usepackage{marginnote}             % Notes on the margins of a document (more advanced \marginpar)
-\usepackage{titlesec}               % Customize titles
+\newcommand{\operatitle}{\textbfit{„Moara cu noroc”}} % title of the text
+\newcommand{\operaauthor}{Ioan Slavici} % author of the text
 
-% Custom titles, sections, subsections etc. format
-\titleformat*{\section}{\large\bfseries}
-\titleformat{\subsection}{\normalfont\normalfont\bfseries}{}{0pt}{}
-
-% Page numbering
-%\pagenumbering{gobble} % uncomment if you want to disable it
-
-% Custom commands
-% Format: \newcommand{\command}{action (add '\ ' or '{}' if it won't add a space properly)}
-\newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}} % Roman numerals
-\newcommand{\operatitle}{\textbf{\textit{„Moara cu noroc”\ }}} % title of the commented opera
-\newcommand{\operaauthor}{Ioan Slavici\ }                               % author of the commented opera
-
-% Basic document info
 \title{Eseu despre particularitățile de construcție a personajului principal dintr-o nuvelă studiată}
-\date{}   % Show no date in the title
-\author{} % Empty author to not get a warn about missing author
+
 
 \begin{document}
 \maketitle % Show the title
 %\reversemarginpar % put margin notes on left instead of on right
 
-
 % Beginning of text
+
 
 \subsection{Context}
 
-Publicată în 1881, în volumul de debut „Novele din popor”, nuvela realistă, de factură psihologică \operatitle devine una dintre scrierile reprezentative pentru viziunea lui Ioan Slavici asupra lumii și asupra vieții satului transilvănean.
+Publicată în 1881, în volumul de debut \textbfit{„Novele din popor”}, nuvela realistă, de factură psihologică \operatitle\ devine una dintre scrierile reprezentative pentru viziunea lui Ioan Slavici asupra lumii și asupra vieții satului transilvănean.
 
-\section{Ilustrarea elementelor de structură și de compoziție ale nuvelei, semnificative pentru realizarea personajului din nuvela studiată {\footnotesize (de exemplu: acțiune, conflict, relații temporale și spațiale, incipit, final, tehnici narative, perspectivă narativă, registre stilistice, limbajul personajelor etc.)}}
 
-\operatitle de \operaauthor are ca temă consecințele nefaste și dezumanizante ale dorinței de îmbogățire.
+\section{Ilustrarea elementelor de structură și de compoziție ale nuvelei, semnificative pentru realizarea personajului din nuvela studiată {\footnotesize\normalfont (de exemplu: acțiune, conflict, relații temporale și spațiale, incipit, final, tehnici narative, perspectivă narativă, registre stilistice, limbajul personajelor etc.)}}
+
+\operatitle\ de \operaauthor\ are ca temă consecințele nefaste și dezumanizante ale dorinței de îmbogățire.
 
 Perspectiva narativă este obiectivă. Întâmplările din nuvelă sunt relatate la persoana a \rom{3}-a, din perspectiva unui narator omniscient și omniprezent.
 
 Titlul nuvelei este mai degrabă ironic. Toposul ales, cârciuma numită Moara cu noroc, ajunge să însemne, de fapt, Moara cu ghinion, Moara care aduce nenorocirea, deoarece câștigurile obținute aici ascund nelegiuiri și crime.
 
-\marginnote{incipit/\ final}[0.8cm]
+\marginnote{incipit/\ final}[0.3cm]
 Simetria dintre incipitul și finalul nuvelei este dată de vorbele bătrânei, soacra lui Ghiță, care la început susține că: \textit{„Omul să fie mulțumit cu sărăcia sa, căci, dacă-i vorba, nu bogăția, ci liniștea colibei tale te face fericit”}, iar la sfârșit pune întâmplările tragice pe seama destinului necruțător: \textit{”așa le-a fost data!...”}. Cele două afirmații sunt principalele teze morale ale nuvelei.
 
 \marginnote{conflictul central}[0.3cm]
-Fiind o nuvelă psihologică, în \operatitle de \operaauthor conflictul central este moral, psihologic, conflictul interior al protagonistului. Personajul principal, Ghiță, oscilează între dorința de a rămâne om cinstit, pe de o parte, și dorința de a se îmbogăți alături de Lică, pe de altă parte. Conflictul interior se reflectă în plan exterior, în confruntarea dintre cârciumarul Ghiță și Lică Sămădăul.
+Fiind o nuvelă psihologică, în \operatitle\ de \operaauthor\ conflictul central este moral, psihologic, conflictul interior al protagonistului. Personajul principal, Ghiță, oscilează între dorința de a rămâne om cinstit, pe de o parte, și dorința de a se îmbogăți alături de Lică, pe de altă parte. Conflictul interior se reflectă în plan exterior, în confruntarea dintre cârciumarul Ghiță și Lică Sămădăul.
 
 Stilul nuvelei este sobru, concis, fără podoabe. Limbajul naratorului și al personajelor valorifică aceleași registre stilistice: limbajul regional, ardelenesc, limbajul popular, oralitatea.
+
 
 \section{Precizarea statutului social, psihologic, moral etc. al personajului ales}
 
 Ghiță este cel mai complex personaj din nuvelistica lui Slavici, un personaj \textit{„rotund”}, al cărui destin ilustrează consecințele nefaste ale dorinței de îmbogățire.
 
-\marginnote{statut inițial}[0.3cm]
-Statutul inițial al personajului este reliefat în dialogul din incipitul nuvelei, dintre soacră și Ghiță, în care se confruntă două concepții despre viață/fericire: bătrâna este adepta valorilor tradiționale, în timp ce Ghiță, cizmar sărac, dar om harnic, blând și cumsecade, soț iubitor, ia în arendă cârciuma de la Moara cu noroc, pentru a câștiga rapid bani, ca să-și deschidă un atelier.
+\marginnote{statut inițial}[0.5cm]
+Statutul inițial al personajului este reliefat în dialogul din incipitul nuvelei, dintre soacră și Ghiță, în care se confruntă două concepții despre viață: bătrâna este adepta valorilor tradiționale, în timp ce Ghiță, capul familiei, dorește bunăstarea materială. Ghiță, cizmar sărac, dar om harnic, blând și cumsecade, soț iubitor, ia în arendă cârciuma de la Moara cu noroc, pentru a câștiga rapid bani, ca să-și deschidă un atelier.
 
 Atâta timp cât este un om de acțiune, cu inițiativă, lucrurile merg bine. Cârciuma aduce profit, familia trăiește în armonie.
 
-\section{Ilustrarea trăsăturilor personajului ales, prin secvențe narative, situații semnificative sau prin citate comentate}
+
+\section{Ilustrarea trăsăturilor personajului ales, prin secvențe narative/situații semnificative sau prin citate comentate}
 
 \marginnote{portretul personajului}[0.3cm]
-Trăsăturile personajelor se desprind din fapte, vorbe, gesturi și din relațiile care se stabilesc între acestea (caracterizare indirectă). De asemenea, naratorul realizează portrete sugestive ( caracterizare directă). Portretul fizic al lui Ghiță este aproape absent: este redus la câteva detalii, la început (\textit{„înalt și spătos”}), pentru ca, mai apoi, trăsăturile cârciumarului (expresia chipului, ton, voce etc.) să reflecte transformările sale sufletești.
+Trăsăturile personajelor se desprind din fapte, vorbe, gesturi și din relațiile care se stabilesc între acestea (caracterizare indirectă). De asemenea, naratorul realizează portrete sugestive (caracterizare directă). Portretul fizic al lui Ghiță este aproape absent: este redus la câteva detalii, la început (\textit{„înalt și spătos”}), pentru ca, mai apoi, trăsăturile cârciumarului (expresia chipului, ton, voce etc.) să reflecte transformările sale sufletești.
 
-\marginnote{mijloace de in\-ves\-ti\-ga\-ți\-e psihologică}[0cm]
-Pentru portretul moral al personajului principal, Slavici a folosit mijloace de in\-ves\-ti\-ga\-ți\-e psihologică, precum: scenele dialogate, monologul interior de factură tradițională și acela realizat în stil indirect liber, introspecția, notația gesticii, a mimicii și a tonului vocii.
+\marginnote{mijloace de investigație psihologică}[-0.2cm]
+Pentru portretul moral al personajului principal, Slavici a folosit mijloace de investigație psihologică, precum: scenele dialogate, monologul interior de factură tradițională și acela realizat în stil indirect liber, introspecția, notația gesticii, a mimicii și a tonului vocii.
 
 Procesul de înstrăinare a lui Ghiță față de familie începe din momentul venirii lui Lică la cârciumă. La început, Ghiță își ia toate măsurile de apărare împotriva lui Lică: merge la Arad să-și cumpere două pistoale, își face rost de doi câini și își angajează încă o slugă, pe Marți. Deși înțelege că Lică reprezintă un pericol, Ghiță nu se poate sustrage ispitei câștigului, mai ales că își dă seama că nu poate rămâne la Moara cu noroc fără acordul Sămădăului.
 
-\marginnote{patima pentru bani}[0cm]
+\marginnote{patima pentru bani}[-0.2cm]
 Bun cunoscător de oameni, Lică se folosește de patima lui Ghiță pentru bani spre a-l atrage pe acesta în afacerile lui necurate și apoi pentru a-i anula personalitatea.
 
 Gesturile și gândurile cârciumarului trădează frământările sale sufletești, conflictul său interior, și contribuie la realizarea analizei psihologice.
@@ -87,15 +66,16 @@ La un moment dat, Ghiță ajunge să regrete faptul că are familie și că nu-�
 
 Ghiță este caracterizat în mod direct de Lică. Acesta își dă seama că Ghiță e om de nădejde și chiar îi spune acest lucru: \textit{„Tu ești om, Ghiță, om cu multă ură în sufletul tău, și ești om cu minte”}.
 
-\marginnote{înstrăinare de familie}[0cm]
-Axa vieții morale a personajului este distrusă treptat; se simte înstrăinat de toți și toate. De rușinea lumii, de dragul soției și al copiilor, se gândește că ar fi mai bine să plece de la Moara cu noroc. Începe să colaboreze cu Pintea, dar nu este sincer în totalitate nici față de acesta.
+\marginnote{înstrăinare de familie}[-0.1cm]
+Axa vieții morale a personajului este distrusă treptat; se simte înstrăinat de toți și de toate. De rușinea lumii, de dragul soției și al copiilor, se gândește că ar fi mai bine să plece de la Moara cu noroc. Începe să colaboreze cu Pintea, dar nu este sincer în totalitate nici față de acesta.
 
 \marginnote{degradare morală}[0.8cm]
 Ghiță ajunge pe ultima treaptă a degradării morale în momentul în care, orbit de furie și dispus să facă orice pentru a se răzbuna pe Lică, își aruncă soția, drept momeală, în brațele Sămădăului. Speră până în ultimul moment că Ana va rezista influenței malefice a lui Lică. Dezgustată însă de lașitatea lui Ghiță care se înstrăinase de ea și de familie, într-un gest de răzbunare, Ana i se dăruiește lui Lică, deoarece, spune ea, în ciuda nelegiuirilor comise, Lică e \textit{„om”}, pe când Ghiță \textit{„nu e decât muiere îmbrăcată în haine bărbătești”} (caracterizare directă).
 
 Dându-și seama că soția l-a înșelat, Ghiță o ucide pe Ana. Din ordinul lui Lică, Ghiță este omorât de Răuț, iar cârciuma incendiată.
 
+
 \subsection{Concluzie}
 
-\operatitle de \operaauthor este o nuvelă realistă, psihologică, pentru că urmărește efectele dorinței de îmbogățire, frământările personajelor în planul con\-ști\-in\-ței, conflictul interior.
+\operatitle\ de \operaauthor\ este o nuvelă realistă, psihologică, pentru că urmărește efectele dorinței de îmbogățire, frământările personajelor în planul conștiinței, conflictul interior.
 \end{document}

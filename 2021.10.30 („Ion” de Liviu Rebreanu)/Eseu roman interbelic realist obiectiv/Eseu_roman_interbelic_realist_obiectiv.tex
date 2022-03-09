@@ -1,78 +1,57 @@
-% Document preamble
-\documentclass[
-12pt,
-a4paper
-]{article}
+% Include the preamble
+\input{../../preamble.tex}
 
-% Packages
-\usepackage[utf8]{inputenc}         % UTF-8 support
-\usepackage[T1]{fontenc}            % Proper hyphenation
-\usepackage[romanian]{babel}        % Romanian characters support
-\usepackage{indentfirst}            % Add paragraph indentation even after a section
-\usepackage[margin=2.7cm, marginparwidth=2cm, marginparsep=3mm]{geometry} % Make document margins smaller
-\usepackage{marginnote}             % Notes on the margins of a document (more advanced \marginpar)
-\usepackage{titlesec}               % Customize titles
+\newcommand{\operatitle}{\textbfit{„Ion”}} % title of the text
+\newcommand{\operaauthor}{Liviu Rebreanu} % author of the text
 
-% Custom titles, sections, subsections etc. format
-\titleformat*{\section}{\large\bfseries}
-\titleformat{\subsection}{\normalfont\normalfont\bfseries}{}{0pt}{}
-
-% Page numbering
-%\pagenumbering{gobble} % uncomment if you want to disable it
-
-% Custom commands
-% Format: \newcommand{\command}{action (add '\ ' or '{}' if it won't add a space properly)}
-\newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}} % Roman numerals
-\newcommand{\operatitle}{\textbf{\textit{„Ion”\ }}} % title of the commented opera
-\newcommand{\operaauthor}{Liviu Rebreanu\ } % author of the commented opera
-
-% Basic document info
 \title{Eseu cu privire la tema și viziunea despre lume dintr-un roman interbelic realist, obiectiv}
-\date{}   % Show no date in the title
-\author{} % Empty author to not get a warn about missing author
+
 
 \begin{document}
 \maketitle % Show the title
 %\reversemarginpar % put margin notes on left instead of on right
 
-
 % Beginning of text
+
 
 \subsection{Context}
 
-\operatitle, primul roman publicat de \operaauthor (în 1920), este un roman realist de tip obiectiv, cu tematică rurală, o capodoperă a literaturii române interbelice. Nucleul romanului se află în nuvelele anterioare, \textbf{\textit{„Zestrea”}} și \textbf{\textit{„Rușinea”}}, iar sursele de inspirație sunt trei experiențe de viață ale autorului receptate artistic: gestul țăranului care a sărutat pământul, vorbele lui Ion al Glanetașului și bătaia primită de la tatăl ei de o fată cu zestre din cauza unui țăran sărac.
+\operatitle, primul roman publicat de \operaauthor\ (în 1920), este un roman realist de tip obiectiv, cu tematică rurală, o capodoperă a literaturii române interbelice. Nucleul romanului se află în nuvelele anterioare, \textbf{\textit{„Zestrea”}} și \textbf{\textit{„Rușinea”}}, iar sursele de inspirație sunt trei experiențe de viață ale autorului receptate artistic: gestul țăranului care a sărutat pământul, vorbele lui Ion al Glanetașului și bătaia primită de la tatăl ei de o fată cu zestre din cauza unui țăran sărac.
+
 
 \section{Încadrarea romanului studiat într-o tipologie, într-un curent cultural/literar, într-o orientare tematică}
 
 \marginnote{specie}[0.3cm]
-Opera literară \operatitle este un roman, prin amploarea acțiunii, desfășurată pe mai multe planuri, cu un un conflict complex, personaje numeroase și realizarea unei imagini ample asupra vieții.
+Opera literară \operatitle\ este un roman, prin amploarea acțiunii, desfășurată pe mai multe planuri, cu un un conflict complex, personaje numeroase și realizarea unei imagini ample asupra vieții.
 
 \marginnote{tipologie}[0.3cm]
 Este roman de tip obiectiv prin specificul naratorului (obiectiv, detașat, impersonal), al narațiunii (la persoana a \rom{3}-a) și a relației narator-personaj (naratorul omniscient și omniprezent).
 
-\marginnote{curent literar}[0.8cm]
+\marginnote{curent literar}[0.3cm]
 Viziunea realist-obiectivă e realizează prin: tematica socială, obiectivitatea perspectivei narative, construirea personajelor în relație cu mediul în care acestea trăiesc, alegerea unor personaje tipice pentru o categorie socială, tehnica detaliului semnificativ, veridicitatea, stilul sobru, impersonal.
 
-\section{Ilustrarea temei prin episoade/citate/secvențe comentate}
+
+\section{Ilustrarea temei romanului studiat prin episoade/citate/sec\-ven\-țe comentate}
 
 \marginnote{tema}[0.3cm]
-Tema romanului este \textit{problematica pământului}, analizată în condițiile socio-e\-co\-no\-mi\-ce ale satului ardelenesc de la începutul secolului al \rom{20}-lea. Tema centrală, posesiunea pământului, este dublată de \textit{tema iubirii} și de \textit{tema destinului}.
+Tema romanului este \textit{problematica pământului}, analizată în condițiile so\-ci\-o-e\-co\-no\-mi\-ce ale satului ardelenesc de la începutul secolului al \rom{20}-lea. Tema centrală, posesiunea pământului, este dublată de \textit{tema iubirii} și de \textit{tema destinului}.
 
 \marginnote{caracterul monografic}[0.3cm]
 Caracterul monografic al romanului constă în surprinderea diverselor aspecte ale lumii rurale: obiceiuri și tradiții (nașterea, nunta, înmormântarea, hora, jocul popular, portul), relații socio-economice, relații de familie, instituțiile (biserica, școala), autoritățile.
 
-\section{Prezentarea elementelor de structură și de compoziție ale textului narativ, semnificative pentru tema și viziunea despre lume {\footnotesize (de exemplu: acțiune, conflict, relații temporale și spațiale, incipit, final, tehnici narative, perspectivă narativă, registre stilistice, limbajul personajelor etc.)}}
 
-\marginnote{narator obiectiv, omniscient}[-0.3cm]
+\section{Prezentarea elementelor de structură și de compoziție ale textului narativ, semnificative pentru tema și viziunea despre lume {\footnotesize\normalfont (de exemplu: acțiune, conflict, relații temporale și spațiale, incipit, final, tehnici narative, perspectivă narativă, registre stilistice, limbajul personajelor etc.)}}
+
+\marginnote{narator obiectiv, omniscient}[-0.4cm]
 Perspectiva narativă este obiectivă, iar naratorul detașat, omniscient și omniprezent relatează întâmplările la persoana a \rom{3}-a.
 
-\marginnote{titlul}[0.4cm]
+\marginnote{titlul}[0.45cm]
 Titlul este dat de numele personajului principal, care devine exponent al țărănimii prin dragostea lui pentru pământ, individualizat însă prin modul în care îl obține.
 
-\marginnote{compoziția}[0.3cm]
-Titlurile celor două părți ale romanului evidențiază simetria compoziției și totodată, denumesc cele două patimi ale personajului principal: \textbf{\textit{„Glasul pământului”}} și \textbf{\textit{„Glasul iubirii”}}. Titlurile celor 13 capitole (număr simbolic, nefast) sunt semnificative, discursul narativ având un \textit{„Început”} și un \textit{„Sfârșit”}.
+\marginnote{compoziția}[0.4cm]
+Titlurile celor două părți ale romanului evidențiază simetria compoziției și, totodată, denumesc cele două patimi ale personajului principal: \textbf{\textit{„Glasul pământului”}} și \textbf{\textit{„Glasul iubirii”}}. Titlurile celor 13 capitole (număr simbolic, nefast) sunt semnificative, discursul narativ având un \textit{„Început”} și un \textit{„Sfârșit”}.
 
-\marginnote{tehnica planurilor paralele}[0cm]
+\marginnote{tehnica planurilor paralele}[0.2cm]
 Prin tehnica planurilor paralele este prezentată viața țărănimii și a intelectualității sătești, iar prin tehnica contrapunctului, o anumită temă, moment esențial sau conflict sunt înfățișate în cele două planuri (nunta țărănească a Anei cu Ion corespunde, în planul intelectualității, nunții Laurei cu George Pintea;
 % \marginnote{rapunctul???}[0cm]
 conflictul dintre Ion și Vasile corespunde conflictului dintre intelectualii satului).
@@ -80,11 +59,11 @@ conflictul dintre Ion și Vasile corespunde conflictului dintre intelectualii sa
 \marginnote{planul țărănimii}[0.3cm]
 Planul țărănimii are în centru destinul lui Ion, iar planul intelectualității satului, pe cei doi „stâlpi” ai comunității: învățătorul Herdelea și preotul Belciug. Cele două planuri narative se întâlnesc, încă de la începutul romanului, în scena horei, numită de N. Manolescu \textit{„o horă a soartei”}.
 
-\marginnote{timp și spațiu/ acțiunea}[0cm]
+\marginnote{timp și spațiu/ acțiunea}[-0.2cm]
 Acțiunea romanului începe într-o zi de duminică, în care locuitorii satului Pripas se află la horă, în curtea Todosiei, văduva lui Maxim Oprea (expozițiunea).
 
-\marginnote{ex\-po\-zi\-țiu\-nea}[0.8cm]
-Așezarea privitorilor reflectă relațiile sociale. Separarea celor două grupuri ale bărbaților respectă stratificarea economică. Fruntașii satului, primarul și țăranii bogați, discută separat de țăranii mijlocași, așezați pe prispă. În satul tradițional, lipsa pământului este echivalată cu lipsa demnității.
+\marginnote{expozițiunea}[0.9cm]
+Așezarea privitorilor reflectă relațiile sociale. Separarea celor două grupuri ale bărbaților respectă stratificarea economică. Fruntașii satului, primarul și țăranii bogați, discută separat de țăranii mijlocași, așezați pe prispă. În satul tradițional, lipsa pământului este echivalentă cu lipsa demnității.
 
 Fetele rămase nepoftite privesc hora, iar femeile căsătorite vorbesc despre gospodărie. Este prezentă și Savista, oloaga satului, piaza rea. Intelectualii satului, preotul Belciug și familia învățătorului Herdelea, vin să privească \textit{„petrecerea poporului”}, fără a se amesteca în joc.
 
@@ -92,20 +71,20 @@ Rolul horei în viața comunității sătești este acela de a facilita întemei
 \marginnote{intriga}[0.3cm]
 Venirea lui Vasile Baciu (tatăl Anei) de la cârciumă la horă și confruntarea verbală cu Ion, pe care îl numește \textit{„hoț”} și \textit{„tâlhar”}, pentru că \textit{„sărăntocul”} vrea să-i ia fata promisă altui țăran bogat, George Bulbuc, constituie intriga romanului. Ion se va răzbuna ulterior, lăsând-o pe Ana însărcinată înainte de căsătorie, pentru a-l determina pe tatăl acesteia să accepte nunta.
 
-\marginnote{des\-fă\-șu\-ra\-rea acțiunii}[0.3cm]
-Desfășurarea acțiunii prezintă dezumanizarea protagonistului în goana lui după avere. Dorind să obțină repede mult pământ, Ion o seduce pe Ana și îl forțează pe Vasile Baciu să accepte căsătoria. La nuntă, Ion nu cere acte pentru pământul ce urmează să-i revină ca zestre, apoi se simte înșelat și începe s-o bată pe Ana, femeia fiind alungată, pe rând, din casa soțului și din cea a tatălui. Preotul Belciug mediază conflictul dintre cei doi țărani, în care \textit{„biata Ana nu este decât o victimă tragică”}. Sinuciderea Anei nu-i trezește lui Ion regrete sau conștiința vinovăției, pentru că în Ana, iar apoi în Petrișor, fiul lor, nu vede decât garanția  proprietății asupra pământurilor. Nici moartea copilului nu îl oprește să o caute pe Florica, măritată între timp cu George.
-\marginnote{dez\-no\-dă\-mân\-tul}[0.3cm]
+\marginnote{desfășurarea acțiunii}[0.3cm]
+Desfășurarea acțiunii prezintă dezumanizarea protagonistului în goana lui după avere. Dorind să obțină repede mult pământ, Ion o seduce pe Ana și îl forțează pe Vasile Baciu să accepte căsătoria. La nuntă, Ion nu cere acte pentru pământul ce urmează să-i revină ca zestre, apoi se simte înșelat și începe s-o bată pe Ana, femeia fiind alungată, pe rând, din casa soțului și din cea a tatălui. Preotul Belciug mediază conflictul dintre cei doi țărani, în care \textit{„biata Ana nu este decât o victimă tragică”}. Sinuciderea Anei nu-i trezește lui Ion regrete sau conștiința vinovăției, pentru că în Ana, iar apoi în Petrișor, fiul lor, nu vede decât garanția  proprietății asupra pământurilor. Nici moartea copilului nu-l oprește să o caute pe Florica, măritată între timp cu George.
+\marginnote{deznodământul}[0.3cm]
 Astfel că deznodământul este previzibil, iar George, care-l lovește cu sapa pe Ion, nu este decât un instrument al destinului. George este arestat, Florica rămâne singură, iar averea lui Ion revine bisericii.
 
-\marginnote{planul in\-te\-lec\-tu\-a\-li\-tă\-ții sătești}
-În celălalt plan, rivalitatea dintre preot și învățător, pentru autoritate în sat, este defavorabilă celui de urmat. El are familie - soție, un băiat (poetul visător Titu) și două fete de măritat, dar fără zestre, Laura și Ghighi. În plus, casa lui este construită pe pământul bisericii, cu învoirea preotului. Cum relațiile dintre ei se degradează, pornind de la atitudinea lor față de faptele lui Ion, învățătorul se simte amenințat cu izgonirea din casă.
+\marginnote{planul intelectualității sătești}[0.3cm]
+În celălalt plan, rivalitatea dintre preot și învățător, pentru autoritate în sat, este defavorabilă celui din urmă. El are familie -- soție, un băiat (poetul visător Titu) și două fete de măritat, dar fără zestre, Laura și Ghighi. În plus, casa lui este construită pe pământul bisericii, cu învoirea preotului. Cum relațiile dintre ei se degradează, pornind de la atitudinea lor față de faptele lui Ion, învățătorul se simte amenințat cu izgonirea din casă.
 
 Preotul Belciug este un caracter tare. Rămas văduv de tânăr, se dedică total comunității. Visul său de a construi o biserică nouă în sat este urmărit cu tenacitate, iar romanul se încheie cu sărbătoarea prilejuită de sfințirea bisericii.
 
 \marginnote{conflictul central}[0.3cm]
 Conflictul central din roman este lupta pentru pământ din satul tradițional, unde averea condiționează respectul comunității. Drama lui Ion este drama țăranului sărac. Mândru și orgolios, conștient de calitățile sale, nu-și acceptă condiția și este pus în situația de a alege între iubirea pentru Florica și averea Anei.
 \marginnote{conflictul exterior; conflictul interior}[0.3cm]
-Conflictul exterior, social, între Ion al Glanetașului ți Vasile Baciu, este dublat de conflictul interior, între \textit{„glasul pământului”} și \textit{„glasul iubirii”}. Cele două chemări lăuntrice nu îl pun într-o situație-limită, pentru că se manifestă succesiv, nu simultan. Conflictele secundare au loc între Ion și Simion Lungu, pentru o brazdă de pământ, sau între Ion și George Bulbuc, pentru Ana.
+Conflictul exterior, social, între Ion al Glanetașului și Vasile Baciu, este dublat de conflictul interior, între \textit{„glasul pământului”} și \textit{„glasul iubirii”}. Cele două chemări lăuntrice nu îl pun într-o situație-limită, pentru că se manifestă succesiv, nu simultan. Conflictele secundare au loc între Ion și Simion Lungu, pentru o brazdă de pământ, sau între Ion și George Bulbuc, pentru Ana.
 
 \marginnote{tehnica basoreliefului}[0.65cm]
 Ion este personajul principal și eponim, realizat prin tehnica basoreliefului și a contrapunctului. Ion este personaj monumental, complex, cu însușiri contradictorii: viclenie și naivitate, gingășie și brutalitate, insistență și cinism. La începutul romanului, i se face un portret favorabil, care motivează acțiunile sale prin nevoia de a-și depăși condiția. Însă în goana sa pătimașă după avere, el se dezumanizează treptat, iar moartea sa este expresia intenției moralizatoare a scriitorului.
@@ -115,11 +94,12 @@ Cele două femei, conturate antitetic, Ana și Florica, reprezintă cele două p
 \marginnote{stilul narativ}[0.3cm]
 Stilul narativ este neutru, impersonal, \textit{„stilul cenușiu”} fiind specific prozei realiste obiective; autorul respectă autenticitatea limbajului regional.
 
-Relația dintre țăran și pământ este înfățișată în trei ipostaze simbolice: pentru copil, pământul-mamă, pentru bărbat, pământul-ibovnică, iar pentru omul cu destin tragic, ucis cu o sapă. pământul-stihie, care spulberă dorințele și iluziile efemere prin moarte.
+Relația dintre țăran și pământ este înfățișată în trei ipostaze simbolice: pentru copil, pământul-mamă, pentru bărbat, pământul-ibovnică, iar pentru omul cu destin tragic, ucis cu o sapă, pământul-stihie, care spulberă dorințele și iluziile efemere prin moarte.
 
 Scena în care Ion sărută pământul este sugestivă pentru patima lui și anticipativă pentru destinul personajului.
 
+
 \subsection{Concluzie}
 
-Apreciat la apariție de criticul E. Lovinescu drept \textit{„cea mai puternică creație obiectivă a literaturii române”}, romanul \operatitle de \operaauthor este o capodoperă a literaturii române realiste interbelice.
+Apreciat la apariție de criticul E. Lovinescu drept \textit{„cea mai puternică creație obiectivă a literaturii române”}, romanul \operatitle\ este o capodoperă a literaturii române realiste interbelice.
 \end{document}

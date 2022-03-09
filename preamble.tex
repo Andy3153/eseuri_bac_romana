@@ -1,0 +1,100 @@
+%%
+%% Basic LaTeX preamble by Andy3153
+%% created   04/10/21 ~ 18:21:32
+%% modified1 15/10/21 ~ 23:15:05
+%% modified2 03/11/21 ~ 18:37:45
+%% modified3 22/02/22 ~ 12:48:17
+%%
+%% it used to be a template rip
+%%
+%% reguli de scriere:
+%% 0. o recomandare mai mult, reține că am folosit xelatex, nu pdflatex
+%%
+%% 1. când apare [...] într-un citat, NU trebuie să fie italic și el
+%%      exNU: \textit{„text1 [...] text2”}
+%%      exDA: \textit{„text1} [...] \textit{text2”}
+%%
+%% 2. când apare o enumerație de citate, NU trebuie să fie italice și virgulele
+%%      exNU: \textit{„citat1”, „citat2”, „citat3”}
+%%      exDA: \textit{„citat1”}, \textit{„citat2”}, \textit{„citat3”}
+%%
+%% 3. să NU-ți fie frică să folosești \hbox dacă îti desparte latex aiurea cuvinte cu cratimă
+%%
+%% 4. să NU-ți fie frică să folosești \- ca să corectezi dacă îți desparte latex aiurea în silabe (destul de rar dacă folosești xelatex, de ce nu știu am luat-o ca atare, probabil ca are utf-8 by default și de aia)
+%%
+%% 5. în sectiunile care au un text în paranteză unde da exemple, formatează exemplul ăla astfel:
+%%      ex: \section{text1 {\footnotesize\normalfont (de exemplu: text2, text3 etc.)}}
+%%
+%%
+%%
+%% 69.0. de șters despărțirile în silabe degeaba de când foloseam pdflatex
+%%
+%% 69.1. de convertit numerele romane în \rom{numar}
+%%
+%% 69.2. de convertit in preambul \operatitle in \textbfit
+%%
+%% 69.3. de convertit în text \opera{title,author} în \opera{title,author}\ unde e nevoie
+%%
+%% 69.4. de pus 2 enteruri la început se secțiune/subsecțiune nouă
+%%
+%% 69.5. de facut aia cu footnoteize in sectiuni
+%%
+
+
+\documentclass[
+ 12pt,                        % Font size
+ a4paper                      % Paper type
+]{article}
+
+
+% Packages
+\usepackage[
+ margin=2.7cm,                % Margin size
+ marginparwidth=2cm,          % Margin note size
+ marginparsep=3mm             % Space between margin and text
+]{geometry}
+%\usepackage[utf8]{inputenc} % UTF-8 support, disabled because of switch to XeLaTeX
+%\usepackage[T1]{fontenc}    % Proper hyphenation, disabled because of switch to XeLaTeX
+\usepackage[romanian]{babel} % Romanian characters support
+\usepackage{indentfirst}     % Add paragraph indentation even after a section
+\usepackage{marginnote}      % Notes on the margins of a document (more advanced \marginpar)
+\usepackage{titlesec}        % Customize titles
+
+
+% Custom format for titles, sections, subsections etc.
+\titleformat*{\section}{\large\bfseries}
+\titleformat{\subsection}{\normalfont\normalfont\bfseries}{}{1.5em}{}
+
+
+% Page numbering
+%\pagenumbering{gobble} % uncomment if you want to disable it
+
+
+% Custom commands
+% Format: \newcommand{\command}[variable]{action #variable}
+\newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}} % Roman numerals
+\newcommand{\textbfit}[1]{\textbf{\textit{#1}}}                      % combine bold and italic
+\newcommand{\largertext}[1]{
+ \vspace{0.0cm}
+ \normalfont\textbf{#1}
+ \vspace{0.25cm}
+} % kinda larger text and bolded
+
+
+% Customize \marginnote font
+\renewcommand\marginfont{\ttfamily\footnotesize}
+
+
+% Make \ttfamily hyphenate words for the margin notes
+\DeclareFontFamily{OT1}{cmtt}{\hyphenchar\font=-1}
+\DeclareFontFamily{\encodingdefault}{\ttdefault}{\hyphenchar\font=`\-}
+\DeclareFontFamily{T1}{cmtt}{\hyphenchar\font=45}
+
+
+% Make subsections not appear in ToC as we're using them for a completely different thing
+\setcounter{tocdepth}{1}
+
+
+% Basic document info
+\date{}   % Show no date in the title
+\author{} % Empty author to not get a warn about missing author

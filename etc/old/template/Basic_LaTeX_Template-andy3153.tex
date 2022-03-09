@@ -36,8 +36,8 @@ marginparsep=3mm             % Space between margin and text
 % Format: \newcommand{\command}[variable]{action #variable (add '\ ' or '{}' if it won't add a space properly)}
 \newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}} % Roman numerals
 \newcommand{\textbfit}[1]{\textbf{\textit{#1}}}                      % combine bold and italic
-\newcommand{\operatitle}{\textbf{\textit{\ }}}                       % title of text
-\newcommand{\operaauthor}{\ }                                        % author of text
+\newcommand{\operatitle}{\textbfit{}} % title of text
+\newcommand{\operaauthor}{} % author of text
 
 % Basic document info
 \title{}
