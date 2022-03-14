@@ -1,0 +1,56 @@
+%%
+%% Basic LaTeX template by Andy3153
+%% created   04/10/21 ~ 18:21:32
+%% modified1 15/10/21 ~ 23:15:05
+%% modified2 03/11/21 ~ 18:37:45
+%% modified3 22/02/22 ~ 12:48:17
+%%
+
+% Document preamble
+\documentclass[
+12pt,                        % Font size
+a4paper                      % Paper type
+]{article}
+
+% Packages
+\usepackage[
+margin=2.7cm,                % Margin size
+marginparwidth=2cm,          % Margin note size
+marginparsep=3mm             % Space between margin and text
+]{geometry}
+\usepackage[utf8]{inputenc}  % UTF-8 support
+\usepackage[T1]{fontenc}     % Proper hyphenation
+\usepackage[romanian]{babel} % Romanian characters support
+\usepackage{indentfirst}     % Add paragraph indentation even after a section
+\usepackage{marginnote}      % Notes on the margins of a document (more advanced \marginpar)
+\usepackage{titlesec}        % Customize titles
+
+% Custom titles, sections, subsections etc. format
+\titleformat*{\section}{\large\bfseries}
+\titleformat{\subsection}{\normalfont\normalfont\bfseries}{}{0pt}{}
+
+% Page numbering
+%\pagenumbering{gobble} % uncomment if you want to disable it
+
+% Custom commands
+% Format: \newcommand{\command}[variable]{action #variable (add '\ ' or '{}' if it won't add a space properly)}
+\newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}} % Roman numerals
+\newcommand{\textbfit}[1]{\textbf{\textit{#1}}}                      % combine bold and italic
+\newcommand{\operatitle}{\textbfit{}} % title of text
+\newcommand{\operaauthor}{} % author of text
+
+% Basic document info
+\title{}
+\date{}   % Show no date in the title
+\author{} % Empty author to not get a warn about missing author
+
+\begin{document}
+\maketitle % Show the title
+%\reversemarginpar % put margin notes on left instead of on right
+
+
+% Beginning of text
+
+
+
+\end{document}
