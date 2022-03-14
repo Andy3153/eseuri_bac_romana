@@ -1,5 +1,5 @@
 %%
-%% Basic LaTeX template by Andy3153
+%% Barebones LaTeX template by Andy3153
 %% created   04/10/21 ~ 18:21:32
 %% modified1 15/10/21 ~ 23:15:05
 %% modified2 03/11/21 ~ 18:37:45
@@ -14,11 +14,11 @@
 
 
 % Packages
-\usepackage[
- margin=2.7cm,                % Margin size
- marginparwidth=2cm,          % Margin note size
- marginparsep=3mm             % Space between margin and text
-]{geometry}
+%\usepackage[
+% margin=2.7cm,                % Margin size
+% marginparwidth=2cm,          % Margin note size
+% marginparsep=3mm             % Space between margin and text
+%]{geometry}
 %\usepackage[utf8]{inputenc} % UTF-8 support, disabled because of switch to XeLaTeX
 %\usepackage[T1]{fontenc}    % Proper hyphenation, disabled because of switch to XeLaTeX
 \usepackage[romanian]{babel} % Romanian characters support
@@ -28,8 +28,8 @@
 
 
 % Custom format for titles, sections, subsections etc.
-\titleformat*{\section}{\large\bfseries}
-\titleformat{\subsection}{\normalfont\normalfont\bfseries}{}{1.5em}{}
+%\titleformat*{\section}{\large\bfseries}
+%\titleformat{\subsection}{\normalfont\normalfont\bfseries}{}{1.5em}{}
 
 
 % Page numbering
@@ -45,20 +45,6 @@
  \normalfont\textbf{#1}
  \vspace{0.25cm}
 } % kinda larger text and bolded
-
-
-% Customize \marginnote font
-\renewcommand\marginfont{\ttfamily\footnotesize}
-
-
-% Make \ttfamily hyphenate words for the margin notes
-\DeclareFontFamily{OT1}{cmtt}{\hyphenchar\font=-1}
-\DeclareFontFamily{\encodingdefault}{\ttdefault}{\hyphenchar\font=`\-}
-\DeclareFontFamily{T1}{cmtt}{\hyphenchar\font=45}
-
-
-% Make subsections not appear in ToC as we're using them for a completely different thing
-\setcounter{tocdepth}{1}
 
 
 % Basic document info
