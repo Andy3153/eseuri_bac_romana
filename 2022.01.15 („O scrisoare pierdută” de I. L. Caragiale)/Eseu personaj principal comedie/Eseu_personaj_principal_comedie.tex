@@ -1,57 +1,23 @@
-%%
-%% Basic LaTeX template by Andy3153
-%% created   04/10/21 ~ 18:21:32
-%% modified1 15/10/21 ~ 23:15:05
-%% modified2 03/11/21 ~ 18:37:45
-%%
+% Include the preamble
+\input{../../preamble.tex}
 
-% Document preamble
-\documentclass[
-12pt,                        % Font size
-a4paper                      % Paper type
-]{article}
+\newcommand{\operatitle}{\textbfit{„O scrisoare pierdută”}} % title of the text
+\newcommand{\operaauthor}{I. L. Caragiale} % author of the text
 
-% Packages
-\usepackage[
-margin=2.7cm,                % Margin size
-marginparwidth=2cm,          % Margin note size
-marginparsep=3mm             % Space between margin and text
-]{geometry}
-\usepackage[utf8]{inputenc}  % UTF-8 support
-\usepackage[T1]{fontenc}     % Proper hyphenation
-\usepackage[romanian]{babel} % Romanian characters support
-\usepackage{indentfirst}     % Add paragraph indentation even after a section
-\usepackage{marginnote}      % Notes on the margins of a document (more advanced \marginpar)
-\usepackage{titlesec}        % Customize titles
+\title{Eseu cu privire la tema și viziunea despre lume dintr-o comedie studiată}
 
-% Custom titles, sections, subsections etc. format
-\titleformat*{\section}{\large\bfseries}
-\titleformat{\subsection}{\normalfont\normalfont\bfseries}{}{0pt}{}
-
-% Page numbering
-%\pagenumbering{gobble} % uncomment if you want to disable it
-
-% Custom commands
-% Format: \newcommand{\command}{action (add '\ ' or '{}' if it won't add a space properly)}
-\newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}} % Roman numerals
-\newcommand{\operatitle}{\textbf{\textit{„O scrisoare pierdută”\ }}} % title of the commented opera
-\newcommand{\operaauthor}{I. L. Caragiale\ } % author of the commented opera
-
-% Basic document info
-\title{Eseu despre particularitățile de construcție a personajului principal dintr-o comedie studiată}
-\date{}   % Show no date in the title
-\author{} % Empty author to not get a warn about missing author
 
 \begin{document}
 \maketitle % Show the title
 %\reversemarginpar % put margin notes on left instead of on right
 
-
 % Beginning of text
+
 
 \subsection{Context}
 
-Reprezentată pe scenă în 1884, comedia \operatitle de \operaauthor este a treia piesă dintre cele patru scrise de autor, o capodoperă a genului dramatic. Este o comedie de moravuri, în care sunt satirizate aspecte ale societății contemporane autorului, fiind inspirată din lupta electorală din anul 1883.
+Reprezentată pe scenă în 1884, comedia \operatitle\ de \operaauthor\ este a treia piesă dintre cele patru scrise de autor, o capodoperă a genului dramatic. Este o comedie de moravuri, în care sunt satirizate aspecte ale societății contemporane autorului, fiind inspirată din lupta electorală din anul 1883.
+
 
 \section{Evidențierea trăsăturilor care fac posibilă încadrarea piesei într-o tipologie, într-un curent cultural/literar, într-o orientare tematică}
 
@@ -68,12 +34,14 @@ Comedia aparține realismului clasic. Principiile promovate de societatea cultur
 Comedia înfățișează aspecte din viața politică (lupta pentru putere în contextul alegerilor pentru Cameră, șantajul, falsificarea listelor electorale) și de familie (triunghiul conjugal Zoe -- Trahanache -- Tipătescu) a unor politicieni corupți.
 
 
-\section{Ilustrarea elementelor de structură și de compoziție ale comediei, semnificative pentru realizarea personajului {\footnotesize (de exemplu: acțiune, conflict, relații temporale și spațiale, registre stilistice, limbajul personajelor, notațiile autorului etc.)}}
+\section{Prezentarea elementelor de structură și de compoziție ale textului dramatic, semnificative pentru tema și viziunea despre lume {\footnotesize\normalfont(de exemplu: acțiune, conflict, relații temporale și spațiale, registre stilistice, limbajul personajelor, notațiile autorului etc.)}}
 
 Titlul pune în evidență intriga și contrastul comic dintre aparență și esență. Pretinsa luptă pentru putere politică se realizează, de fapt, prin lupta de culise, având ca instrument de șantaj politic \textit{„o scrisoare pierdută”} -- pretextul dramatic al comediei. Articolul nehotărât indică atât banalitatea întâmplării, cât și repetabilitatea ei (pierderile succesive ale aceleiași scrisori, amplificate prin repetarea întâmplării în alt context, dar cu același efect).
 
 \marginnote{acțiune}[0.8cm]
-Acțiunea comediei este plasată \textit{„în capitala unui județ de munte, în zilele noastre”}. Reperul spațial vag are efect de generalizare, timpul precizat este sfârșitul secolului al \rom{19}-lea, în perioada unei scrisori intime, compromițătoare pentru reprezentanții locali ai partidului aflat la putere și găsirea ei de către adversarul politic, care o folosește ca armă de șantaj.
+Acțiunea comediei este plasată \textit{„în capitala unui județ de munte, în zilele noastre”}. Reperul spațial vag are efect de generalizare, timpul precizat este sfârșitul secolului al \rom{19}-lea, în perioada campaniei electorale, în interval de trei zile, ca în teatrul clasic.
+
+Intriga piesei pornește de la o întâmplare banală: pierderea unei scrisori intime, compromițătoare pentru reprezentanții locali ai partidului aflat la putere și găsirea ei de către adversarul politic, care o folosește ca armă de șantaj.
 
 %%%%%%%%
 
@@ -87,14 +55,14 @@ Zaharia Trahanache este tipul \textit{încornoratului simpatic} pentru că refuz
 
 Conform criticului Pompiliu Constantinescu, el reprezintă și \textit{„tipul politic”}, abil și avid de putere, fiind \textit{„prezidentul”} mai multor \textit{„comitete și comiții”} din județ și, de aceea, unul dintre „stâlpii” locali ai partidului aflat la putere.
 
-\section{Ilustrarea unei trăsături a personajului ales, prin două sce\-ne/ci\-ta\-te/sec\-ven\-țe comentate}
+\section{Ilustrarea unei trăsături a personajului ales, prin sce\-ne/ci\-ta\-te/sec\-ven\-țe comentate}
 
 \marginnote{ticăiala}[0.3cm]
 Principala sa caracteristică este ticăiala, fapt sugerat de prenumele Zaharia, care denotă \textit{zahariseala}, ramolismentul și de formula stereotipă \textit{„Aveți puțintică răbdare”}, rostită în rarele momente de enervare proprie sau când alții își pierd cumpătul.
 
 \textit{„Venerabilul”}, cum îi spun alte personaje, este calm, imperturbabil, de o viclenie rudimentară, dar eficientă. Știe să disimuleze și să manevreze intrigi politice. Când este șantajat, își păstrează calmul și răspunde cu un contrașantaj, descoperind polița falsificată de Cațavencu.
 
-Recunoaște existența corupției la nivelul societății, dar practică frauda, falsificând listele de alegeri. Nu acceptă imoralitatea în familie, susținând senin că scrisoarea de amor este o plastografie. Credulitatea exagerată poate fi pusă pe seama unei convingeri derme sau poate fi considerată un act de „diplomație”, prin care vrea să păstreze onoarea familiei și bunele relații cu prefectul.
+Recunoaște existența corupției la nivelul societății, dar practică frauda, falsificând listele de alegeri. Nu acceptă imoralitatea în familie, susținând senin că scrisoarea de amor este o plastografie. Credulitatea exagerată poate fi pusă pe seama unei convingeri ferme sau poate fi considerată un act de „diplomație”, prin care vrea să păstreze onoarea familiei și bunele relații cu prefectul.
 
 Cu abilitate și fermitate îi combate și pe Farfuridi și Brânzovenescu, care îl suspectau pe prefect de trădare: \textit{„E un om cu care nu trăiesc de ieri, de alaltăieri, trăiesc de opt ani, o jumătate de an după ce m-am însurat a doua oară.} Atitudinea lui stârnește admirația lui Brânzovenescu, care îl caracterizează direct: \textit{„E tare... tare de tot... Solid bărbat! Nu-i dăm de rostul secretului”}. Este respectat chiar de adversarul politic, Cațavencu numindu-l \textit{„venerabilul”}. Prin autocaracterizare, se evidențiază disimularea și convingerea că diplomația înseamnă viclenie. Unele indicații scenice au rol în caracterizarea directă, precizând atitudinile \textit{„prezidentului”} la ședința electorală în sala mare a primăriei: \textit{„serios”}, \textit{„binevoitor”}, \textit{„placid”}, \textit{„râzând”}, \textit{„clopoțind”}.
 
@@ -105,10 +73,12 @@ Caracterizarea indirectă prin replici concentrează deviza lui politică: \text
 \marginnote{limbajul personajului}[0.4cm]
 Limbajul personajului dramatic este o sursă a comicului. Trahanache este neinstruit (incult), deformând neologismele din sfera limbajului politic: \textit{„soțietate”}, \textit{„prințip”}, \textit{„dipotat”}, \textit{„docoment”}, \textit{„cestiuni arzătoare la ordinea zilei”}. Ticul său verbal \textit{„Aveți puțintică răbdare”} exprimă tergiversarea individului abil, care sub masca bătrâneții caută să câștige timp pentru a găsi o soluție.
 
-\marginnote{numele personajului}[0.8cm]
+\marginnote{numele personajului}[0.2cm]
 Caracterizarea prin nume este și o sursă a comicului. Numele Trahanache este derivat de la cuvântul \textit{„trahana”}, o cocă moale, ușor de modelat, deciziile personajului fiind „modelate” de \textit{„enteres”}, de Zoe sau de cei de la centru.
 
-Trahanache face parte din triunghiul conjugal (comic de situație), însă naivitatea soțului înșelat contrastează cu viclenia în viața politică, în care, sub aparența bonomiei senile, își ascunde atitudinea coruptă, fiind implicat în contrașantaj și în falsificarea listelor cele două ipostaze incompatibile ale sale: soțul înșelat este în același timp un politician abil.
+Trahanache face parte din triunghiul conjugal (comic de situație), însă naivitatea soțului înșelat contrastează cu viclenia în viața politică, în care, sub aparența bonomiei senile, își ascunde atitudinea coruptă, fiind implicat în contrașantaj și în falsificarea listelor electorale (comic de moravuri).
+
+Prin comicul de caracter sunt ironizate cele două ipostaze incompatibile ale sale: soțul înșelat este în același timp un politician abil.
 
 \subsection{Concluzie}
 
