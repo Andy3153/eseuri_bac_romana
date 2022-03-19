@@ -1,0 +1,131 @@
+%%
+%% Book containing everything in this repo
+%% COMPILE WITH XeLaTeX
+%% IN TESTING CURRENTLY
+%%
+
+\documentclass[
+ 12pt,                       % Font size
+ a4paper                     % Paper type
+]{book}
+
+% Packages
+\usepackage[
+ margin=2.7cm,               % Margin size
+ marginparwidth=2cm,         % Margin note size
+ marginparsep=3mm            % Space between margin and text
+]{geometry}
+\usepackage[romanian]{babel} % Romanian characters support
+\usepackage{indentfirst}     % Add paragraph indentation even after a section
+\usepackage{marginnote}      % Notes on the margins of a document (more advanced \marginpar)
+\usepackage{titlesec}        % Customize titles
+\usepackage{hyperref}        % Hyperlink support
+\usepackage{graphicx}        % Image support
+\usepackage{color}           % Custom colors
+\usepackage{fancyhdr}        % Custom headers
+\usepackage{etoolbox}        % Customize chapters
+\usepackage{blindtext}
+
+% Image path
+\graphicspath{ {./src/} }
+
+% Hyperlink configuration
+\hypersetup{
+ colorlinks=true,
+ urlcolor=black,
+}
+
+% Colors
+\definecolor{gray75}{gray}{0.75}
+
+% Custom format for titles, sections, subsecions etc.
+\titleformat{\chapter}[hang]{\Large}{\thechapter\hspace{15pt}\textcolor{gray75}{|}\hspace{15pt}}{0pt}{\Large}
+\renewcommand{\thesection}{\arabic{section}}%
+\titleformat*{\section}{\large\bfseries}
+\titleformat{\subsection}{\normalfont\normalfont\bfseries}{}{1.5em}{}
+
+% Custom commands
+% Format: \newcommand{\command}[variable]{action #variable}
+\newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}} % Roman numerals
+\newcommand{\textbfit}[1]{\textbf{\textit{#1}}}                      % combine bold and italic
+\newcommand{\operatitle}{}                                           % to not get errors
+\newcommand{\operaauthor}{}                                          % to not get errors
+
+% Customize \marginnote font
+\renewcommand\marginfont{\ttfamily\footnotesize}
+
+% Make \ttfamily hyphenate words for the margin notes
+\DeclareFontFamily{OT1}{cmtt}{\hyphenchar\font=-1}
+\DeclareFontFamily{\encodingdefault}{\ttdefault}{\hyphenchar\font=`\-}
+\DeclareFontFamily{T1}{cmtt}{\hyphenchar\font=45}
+
+% Make only chapters appear in ToC
+\setcounter{tocdepth}{0}
+
+% Custom fancy styles
+\fancypagestyle{chapterfancystyle}{
+ \fancyhf{}
+ \fancyfoot[LE,RO]{\thepage}
+ \renewcommand{\headrulewidth}{0pt}
+ \renewcommand{\footrulewidth}{1pt}
+}
+
+\fancypagestyle{tocfancystyle}{
+ \fancyhf{}
+ \fancyhead[LE]{Cuprins}
+ \fancyfoot[LE,RO]{\thepage}
+ \renewcommand{\headrulewidth}{2pt}
+ \renewcommand{\footrulewidth}{1pt}
+}
+
+\fancypagestyle{plain}{
+ \fancyhf{}
+ \fancyhead[LE]{\textsc{Esee pentru bacalaureat}}
+ \fancyhead[RO]{\textsc{\operatitle\ -- \operaauthor}}
+ \fancyfoot[LE,RO]{\thepage}
+ \renewcommand{\headrulewidth}{2pt}
+ \renewcommand{\footrulewidth}{1pt}
+}
+
+% Patch chapter to use custom header
+\patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{chapterfancystyle}}{}{}
+
+
+
+%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+\pagestyle{empty}
+% Create a title page
+\begin{titlepage}
+ \centering
+ \vspace*{1cm}
+ \vspace{4\baselineskip}
+ {\Huge
+ Esee pentru bacalaureatul la \\ Limba și Literatura Română\par}
+ \vspace{4\baselineskip}
+ de\par
+ {\Large\textsc{Dobrete Andrei-Robert}\par}
+ \vfill
+ \includegraphics[height=\fontcharht\font`\B]{gitlab}
+ \url{gitlab.com/Andy3153/esee_bac_romana}\par
+ \includegraphics[height=\fontcharht\font`\B]{github}
+ \url{github.com/Andy3153/esee_bac_romana}\par
+ \vspace{1.5\baselineskip}
+ {\large\LaTeXe}
+\end{titlepage}
+
+%\pagestyle{tocfancystyle}
+\tableofcontents
+
+\pagestyle{plain}
+
+
+% Beginning of text
+
+\chapter{Eseu cu privire la tema și viziunea despre lume dintr-un basm cult studiat}
+\input{content.tex}
+
+\end{document}

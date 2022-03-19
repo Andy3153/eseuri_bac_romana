@@ -1,0 +1,7 @@
+\babel@toc {romanian}{}\relax 
+\contentsline {chapter}{\numberline {1}Eseu cu privire la tema și viziunea despre lume dintr-un basm cult studiat}{5}{chapter.1}%
+\contentsline {subsection}{\numberline {0.1}Context}{5}{subsection.1.0.1}%
+\contentsline {section}{\numberline {1}Evidențierea trăsăturilor care fac posibilă încadrarea basmului studiat în specia literară pe care o ilustrează}{5}{section.1.1}%
+\contentsline {section}{\numberline {2}Ilustrarea temei prin episoade/citate/secvențe comentate}{5}{section.1.2}%
+\contentsline {section}{\numberline {3}Prezentarea elementelor de structură și de compoziție ale textului narativ, semnificative pentru tema și viziunea despre lume din basmul cult studiat {\footnotesize \normalfont (de exemplu: acțiune, conflict, relații temporale și spațiale, incipit, final, tehnici narative, perspectivă narativă, registre stilistice, limbajul personajelor etc.)}}{5}{section.1.3}%
+\contentsline {subsection}{\numberline {3.1}Concluzie}{7}{subsection.1.3.1}%
