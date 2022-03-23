@@ -1,0 +1,86 @@
+% Include the preamble
+\input{../../preamble.tex}
+
+\newcommand{\operatitle}{\textbfit{„O scrisoare pierdută”}} % title of the text
+\newcommand{\operaauthor}{I. L. Caragiale} % author of the text
+
+\title{Eseu cu privire la tema și viziunea despre lume dintr-o comedie studiată}
+
+
+\begin{document}
+\maketitle % Show the title
+%\reversemarginpar % put margin notes on left instead of on right
+
+% Beginning of text
+
+
+\subsection{Context}
+
+Reprezentată pe scenă în 1884, comedia \operatitle\ de \operaauthor\ este a treia piesă dintre cele patru scrise de autor, o capodoperă a genului dramatic. Este o comedie de moravuri, în care sunt satirizate aspecte ale societății contemporane autorului, fiind inspirată din lupta electorală din anul 1883.
+
+
+\section{Evidențierea trăsăturilor care fac posibilă încadrarea piesei într-o tipologie, într-un curent cultural/literar, într-o orientare tematică}
+
+\marginnote{specie dramatică}[0.1cm]
+Comedia este o specie a genului dramatic, care stârnește râsul prin surprinderea unor moravuri, a unor tipuri umane sau a unor situații neașteptate, cu final fericit.
+
+\marginnote{text dramatic}[0.3cm]
+Fiind un text dramatic, comedia este destinată reprezentării scenice, dovadă fiind intervențiile directe ale autorului în piesă, compoziția în patru acte alcătuite din scene și replici, dialogul și monologul ca moduri de expunere, limitarea acțiunii în timp și spațiu.
+
+\marginnote{realism clasic}[0.8cm]
+Comedia aparține realismului clasic. Principiile promovate de societatea culturală \textit{Junimea} și estetica realismului se regăsesc în: critica \textit{„formelor fără fond”} și a politicienilor corupți, satirizarea unor aspecte sociale, spiritul de observație acut, veridicitatea obținută prin tehnica acumulării detaliilor, individualizarea „caracterelor” prin limbaj. Țin de clasicism echilibrul compozițional și generalitatea situațiilor și a caracterelor (prostul fudul, canalia, \textit{„încornoratul”}, cocheta etc.)
+
+\marginnote{tema}[0.3cm]
+Comedia înfățișează aspecte din viața politică (lupta pentru putere în contextul alegerilor pentru Cameră, șantajul, falsificarea listelor electorale) și de familie (triunghiul conjugal Zoe -- Trahanache -- Tipătescu) a unor politicieni corupți.
+
+
+\section{Prezentarea elementelor de structură și de compoziție ale textului dramatic, semnificative pentru tema și viziunea despre lume {\footnotesize\normalfont(de exemplu: acțiune, conflict, relații temporale și spațiale, registre stilistice, limbajul personajelor, notațiile autorului etc.)}}
+
+Titlul pune în evidență intriga și contrastul comic dintre aparență și esență. Pretinsa luptă pentru putere politică se realizează, de fapt, prin lupta de culise, având ca instrument de șantaj politic \textit{„o scrisoare pierdută”} -- pretextul dramatic al comediei. Articolul nehotărât indică atât banalitatea întâmplării, cât și repetabilitatea ei (pierderile succesive ale aceleiași scrisori, amplificate prin repetarea întâmplării în alt context, dar cu același efect).
+
+\marginnote{acțiune}[0.8cm]
+Acțiunea comediei este plasată \textit{„în capitala unui județ de munte, în zilele noastre”}. Reperul spațial vag are efect de generalizare, timpul precizat este sfârșitul secolului al \rom{19}-lea, în perioada campaniei electorale, în interval de trei zile, ca în teatrul clasic.
+
+Intriga piesei pornește de la o întâmplare banală: pierderea unei scrisori intime, compromițătoare pentru reprezentanții locali ai partidului aflat la putere și găsirea ei de către adversarul politic, care o folosește ca armă de șantaj.
+
+%%%%%%%%
+
+Personajele se aproprie de realism, fiind individualizare prin limbaj și prin elemente de statut social și psihologic. Limbajul personajelor este principala modalitate de individualizare a „caracterelor” clasice și procedeu de caracterizare indirectă.
+
+Notațiile autorului caracterizează personajele atât indirect, prin gesturi și mimică, cât și direct, întrucât în lista cu \textit{Persoanele} de la începutul piesei, alături de numele sugestive pentru tipologia comică, apare și statutul lor social.
+
+\section{Precizarea statutului social, psihologic, moral etc. al personajului ales}
+
+Zaharia Trahanache este tipul \textit{încornoratului simpatic} pentru că refuză să creadă din \textit{„enteres”} sau din diplomație în autenticitatea scrisorii de amor și în adulterul soției sale.
+
+Conform criticului Pompiliu Constantinescu, el reprezintă și \textit{„tipul politic”}, abil și avid de putere, fiind \textit{„prezidentul”} mai multor \textit{„comitete și comiții”} din județ și, de aceea, unul dintre „stâlpii” locali ai partidului aflat la putere.
+
+\section{Ilustrarea unei trăsături a personajului ales, prin sce\-ne/ci\-ta\-te/sec\-ven\-țe comentate}
+
+\marginnote{ticăiala}[0.3cm]
+Principala sa caracteristică este ticăiala, fapt sugerat de prenumele Zaharia, care denotă \textit{zahariseala}, ramolismentul și de formula stereotipă \textit{„Aveți puțintică răbdare”}, rostită în rarele momente de enervare proprie sau când alții își pierd cumpătul.
+
+\textit{„Venerabilul”}, cum îi spun alte personaje, este calm, imperturbabil, de o viclenie rudimentară, dar eficientă. Știe să disimuleze și să manevreze intrigi politice. Când este șantajat, își păstrează calmul și răspunde cu un contrașantaj, descoperind polița falsificată de Cațavencu.
+
+Recunoaște existența corupției la nivelul societății, dar practică frauda, falsificând listele de alegeri. Nu acceptă imoralitatea în familie, susținând senin că scrisoarea de amor este o plastografie. Credulitatea exagerată poate fi pusă pe seama unei convingeri ferme sau poate fi considerată un act de „diplomație”, prin care vrea să păstreze onoarea familiei și bunele relații cu prefectul.
+
+Cu abilitate și fermitate îi combate și pe Farfuridi și Brânzovenescu, care îl suspectau pe prefect de trădare: \textit{„E un om cu care nu trăiesc de ieri, de alaltăieri, trăiesc de opt ani, o jumătate de an după ce m-am însurat a doua oară.} Atitudinea lui stârnește admirația lui Brânzovenescu, care îl caracterizează direct: \textit{„E tare... tare de tot... Solid bărbat! Nu-i dăm de rostul secretului”}. Este respectat chiar de adversarul politic, Cațavencu numindu-l \textit{„venerabilul”}. Prin autocaracterizare, se evidențiază disimularea și convingerea că diplomația înseamnă viclenie. Unele indicații scenice au rol în caracterizarea directă, precizând atitudinile \textit{„prezidentului”} la ședința electorală în sala mare a primăriei: \textit{„serios”}, \textit{„binevoitor”}, \textit{„placid”}, \textit{„râzând”}, \textit{„clopoțind”}.
+
+Mijloacele de caracterizare specifice personajului dramatic sunt: limbajul, notațiile autorului, situațiile comice, numele.
+
+Caracterizarea indirectă prin replici concentrează deviza lui politică: \textit{„Noi votăm pentru candidatul pe care-l pune pe tapet partidul întreg...”}. Această atitudine este determinată de \textit{„o soțietate fără moral și fără prințip”}, \textit{„binele nostru”} însemnând binele lui și alor săi. Fraza care îi rezumă principiul de viață și îi motivează falsa naivitate este: \textit{„Într-o soțietate fără moral și fără prințip... trebuie să ai și puțintică diplomație!”}
+
+\marginnote{limbajul personajului}[0.4cm]
+Limbajul personajului dramatic este o sursă a comicului. Trahanache este neinstruit (incult), deformând neologismele din sfera limbajului politic: \textit{„soțietate”}, \textit{„prințip”}, \textit{„dipotat”}, \textit{„docoment”}, \textit{„cestiuni arzătoare la ordinea zilei”}. Ticul său verbal \textit{„Aveți puțintică răbdare”} exprimă tergiversarea individului abil, care sub masca bătrâneții caută să câștige timp pentru a găsi o soluție.
+
+\marginnote{numele personajului}[0.2cm]
+Caracterizarea prin nume este și o sursă a comicului. Numele Trahanache este derivat de la cuvântul \textit{„trahana”}, o cocă moale, ușor de modelat, deciziile personajului fiind „modelate” de \textit{„enteres”}, de Zoe sau de cei de la centru.
+
+Trahanache face parte din triunghiul conjugal (comic de situație), însă naivitatea soțului înșelat contrastează cu viclenia în viața politică, în care, sub aparența bonomiei senile, își ascunde atitudinea coruptă, fiind implicat în contrașantaj și în falsificarea listelor electorale (comic de moravuri).
+
+Prin comicul de caracter sunt ironizate cele două ipostaze incompatibile ale sale: soțul înșelat este în același timp un politician abil.
+
+\subsection{Concluzie}
+
+Lumea eroilor lui \operaauthor este alcătuită dintr-o galerie de personaje care acționează după principiul \textit{„Scopul scuză mijloacele”}. Zaharia Trahanache este viclean și abil, bărbatul politic \textit{„tare”} din județ, în timp ce pe plan familial este \textit{„încornoratul”} simpatic. Autorul îl ironizează puternic, deoarece înfățișează un tip uman caracteristic vremii: tipul politicianului corupt, ticăit și viclean.
+\end{document}

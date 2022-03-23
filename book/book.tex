@@ -13,7 +13,8 @@
 \usepackage[
  margin=2.7cm,               % Margin size
  marginparwidth=2cm,         % Margin note size
- marginparsep=3mm            % Space between margin and text
+ marginparsep=3mm,           % Space between margin and text
+ headheight=15pt             % Header height (fix that stupid warn from fancyhdr)
 ]{geometry}
 \usepackage[romanian]{babel} % Romanian characters support
 \usepackage{indentfirst}     % Add paragraph indentation even after a section
@@ -21,10 +22,11 @@
 \usepackage{titlesec}        % Customize titles
 \usepackage{hyperref}        % Hyperlink support
 \usepackage{graphicx}        % Image support
-\usepackage{color}           % Custom colors
+\usepackage{xcolor}          % Custom colors
 \usepackage{fancyhdr}        % Custom headers
 \usepackage{etoolbox}        % Customize chapters
-\usepackage{blindtext}
+\usepackage[titles]{tocloft} % Customize ToC
+\usepackage{blindtext}       % Sample filler text
 
 % Image path
 \graphicspath{ {./src/} }
@@ -33,6 +35,7 @@
 \hypersetup{
  colorlinks=true,
  urlcolor=black,
+ linkcolor=black  % ToC links color
 }
 
 % Colors
@@ -59,8 +62,9 @@
 \DeclareFontFamily{\encodingdefault}{\ttdefault}{\hyphenchar\font=`\-}
 \DeclareFontFamily{T1}{cmtt}{\hyphenchar\font=45}
 
-% Make only chapters appear in ToC
-\setcounter{tocdepth}{0}
+% ToC customization
+\setcounter{tocdepth}{0}     % Make only chapters appear in ToC
+\renewcommand{\cftdot}{}     % Remove ToC dots
 
 % Custom fancy styles
 \fancypagestyle{chapterfancystyle}{
@@ -80,8 +84,14 @@
 
 \fancypagestyle{plain}{
  \fancyhf{}
- \fancyhead[LE]{\textsc{Esee pentru bacalaureat}}
- \fancyhead[RO]{\textsc{\operatitle\ -- \operaauthor}}
+ \fancyhead[LE]{\small\textsc{Esee pentru bacalaureat}}
+ \fancyhead[RO]{
+  \begingroup
+    \small
+    \let\textbfit\relax
+    \textsc{\operatitle\ -- \operaauthor}
+  \endgroup
+ }
  \fancyfoot[LE,RO]{\thepage}
  \renewcommand{\headrulewidth}{2pt}
  \renewcommand{\footrulewidth}{1pt}
@@ -117,15 +127,75 @@
  {\large\LaTeXe}
 \end{titlepage}
 
-%\pagestyle{tocfancystyle}
-\tableofcontents
+% Disable bold in ToC
+\addtocontents{toc}{\string\renewcommand{\protect\cftchappagefont}{\protect\normalfont}}
+\addtocontents{toc}{\string\renewcommand{\protect\cftchapfont}{\protect\normalfont}}
+\addtocontents{toc}{\string\renewcommand{\protect\cftchapleader}{\protect\normalfont\protect\cftdotfill{\protect\cftsecdotsep}}}
+
+
+\tableofcontents % Generate the ToC
+
+%\addtocontents{toc}{~\hfill\textbf{Pagina}\par} % text above page nr
 
 \pagestyle{plain}
 
 
 % Beginning of text
 
+% esee
+% harap-alb
 \chapter{Eseu cu privire la tema și viziunea despre lume dintr-un basm cult studiat}
-\input{content.tex}
+\input{../2021.10.09 („Povestea lui Harap-Alb” de Ion Creangă)/Eseu basm cult/content.tex}
+
+\chapter{Eseu despre particularitățile de construcție a personajului principal dintr-un basm cult studiat}
+\input{../2021.10.09 („Povestea lui Harap-Alb” de Ion Creangă)/Eseu personaj basm cult/content.tex}
+
+
+% moara cu noroc
+\chapter{Eseu cu privire la tema și viziunea despre lume dintr-o nuvelă studiată}
+\input{../2021.10.16 („Moara cu noroc” de Ioan Slavici)/Eseu nuvela/content.tex}
+
+\chapter{Eseu despre particularitățile de construcție a personajului principal dintr-o nuvelă studiată}
+\input{../2021.10.16 („Moara cu noroc” de Ioan Slavici)/Eseu personaj principal nuvela/content.tex}
+
+
+% baltagul
+\chapter{Eseu privind tema și viziunea despre lume dintr-un roman interbelic, realist -- mitic}
+\input{../2021.10.23 („Baltagul” de Mihail Sadoveanu)/Eseu roman interbelic realist mitic/content.tex}
+
+\chapter{Particularități de construcție a personajului principal din\-tr-un roman interbelic, realist}
+\input{../2021.10.23 („Baltagul” de Mihail Sadoveanu)/Eseu personaj principal roman interbelic realist/content.tex}
+
+
+% ion
+\chapter{Eseu cu privire la tema și viziunea despre lume dintr-un roman interbelic realist, obiectiv}
+\input{../2021.10.30 („Ion” de Liviu Rebreanu)/Eseu roman interbelic realist obiectiv/content.tex}
+
+\chapter{Eseu despre particularitățile de construcție a personajului principal dintr-un roman interbelic}
+\input{../2021.10.30 („Ion” de Liviu Rebreanu)/Eseu personaj principal roman interbelic realist obiectiv/content.tex}
+
+
+% enigma otiliei
+\chapter{Eseu privind tema și viziunea despre lume într-un roman realist-balzacian studiat}
+\input{../2021.11.06 („Enigma Otiliei” de George Călinescu)/Eseu roman realist balzacian/content.tex}
+
+\chapter{Eseu despre particularitățile de construcție a personajului principal dintr-un roman realist-balzacian}
+\input{../2021.11.06 („Enigma Otiliei” de George Călinescu)/Eseu personaj principal roman realist balzacian/content.tex}
+
+
+% ultima noapte
+\chapter{Eseu cu privire la tema și viziunea despre lume dintr-un roman psihologic studiat}
+\input{../2021.11.13 („Ultima noapte de dragoste, întâia noapte de război” de Camil Petrescu)/Eseu roman psihologic/content.tex}
+
+\chapter{Eseu despre particularitățile de construcție a personajului principal dintr-un roman psihologic}
+\input{../2021.11.13 („Ultima noapte de dragoste, întâia noapte de război” de Camil Petrescu)/Eseu personaj principal roman psihologic/content.tex}
+
+
+% osp
+\chapter{Eseu cu privire la tema și viziunea despre lume dintr-o comedie studiată}
+\input{../2022.01.15 („O scrisoare pierdută” de I. L. Caragiale)/Eseu comedie/content.tex}
+
+\chapter{Eseu cu privire la tema și viziunea despre lume dintr-o comedie studiată}
+\input{../2022.01.15 („O scrisoare pierdută” de I. L. Caragiale)/Eseu personaj principal comedie/content.tex}
 
 \end{document}

@@ -1,7 +1,90 @@
 \babel@toc {romanian}{}\relax 
+\renewcommand {\cftchappagefont }{\normalfont }
+\renewcommand {\cftchapfont }{\normalfont }
+\renewcommand {\cftchapleader }{\normalfont \cftdotfill {\cftsecdotsep }}
 \contentsline {chapter}{\numberline {1}Eseu cu privire la tema și viziunea despre lume dintr-un basm cult studiat}{5}{chapter.1}%
 \contentsline {subsection}{\numberline {0.1}Context}{5}{subsection.1.0.1}%
 \contentsline {section}{\numberline {1}Evidențierea trăsăturilor care fac posibilă încadrarea basmului studiat în specia literară pe care o ilustrează}{5}{section.1.1}%
 \contentsline {section}{\numberline {2}Ilustrarea temei prin episoade/citate/secvențe comentate}{5}{section.1.2}%
 \contentsline {section}{\numberline {3}Prezentarea elementelor de structură și de compoziție ale textului narativ, semnificative pentru tema și viziunea despre lume din basmul cult studiat {\footnotesize \normalfont (de exemplu: acțiune, conflict, relații temporale și spațiale, incipit, final, tehnici narative, perspectivă narativă, registre stilistice, limbajul personajelor etc.)}}{5}{section.1.3}%
 \contentsline {subsection}{\numberline {3.1}Concluzie}{7}{subsection.1.3.1}%
+\contentsline {chapter}{\numberline {2}Eseu despre particularitățile de construcție a personajului principal dintr-un basm cult studiat}{9}{chapter.2}%
+\contentsline {subsection}{\numberline {0.1}Context}{9}{subsection.2.0.1}%
+\contentsline {section}{\numberline {1}Precizarea statutului social, psihologic, moral etc. al personajului ales}{9}{section.2.1}%
+\contentsline {section}{\numberline {2}Ilustrarea elementelor de structură și de compoziție ale basmului, semnificative pentru realizarea personajului din basmul cult studiat {\footnotesize \normalfont (de exemplu: acțiune, conflict, relații temporale și spațiale, incipit, final, tehnici narative, perspectivă narativă, registre stilistice, limbajul personajelor etc.)}}{9}{section.2.2}%
+\contentsline {section}{\numberline {3}Ilustrarea trăsăturilor personajului ales, prin secvențe \\ narative/situații semnificative sau prin citate comentate}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {3.1}Concluzie}{11}{subsection.2.3.1}%
+\contentsline {chapter}{\numberline {3}Eseu cu privire la tema și viziunea despre lume dintr-o nuvelă studiată}{13}{chapter.3}%
+\contentsline {subsection}{\numberline {0.1}Context}{13}{subsection.3.0.1}%
+\contentsline {section}{\numberline {1}Evidențierea trăsăturilor care fac posibilă încadrarea nuvelei într-o tipologie, într-un curent cultural/literar, într-o orientare tematică}{13}{section.3.1}%
+\contentsline {section}{\numberline {2}Ilustrarea temei nuvelei studiate prin episoade/citate/sec\-ven\-țe comentate}{13}{section.3.2}%
+\contentsline {section}{\numberline {3}Prezentarea elementelor de structură și de compoziție ale textului narativ, semnificative pentru tema și viziunea despre lume din nuvela studiată {\footnotesize \normalfont (de exemplu: acțiune, conflict, relații temporale și spațiale, incipit, final, tehnici narative, perspectivă narativă, registre stilistice, limbajul personajelor etc.)}}{14}{section.3.3}%
+\contentsline {subsection}{\numberline {3.1}Concluzie}{15}{subsection.3.3.1}%
+\contentsline {chapter}{\numberline {4}Eseu despre particularitățile de construcție a personajului principal dintr-o nuvelă studiată}{17}{chapter.4}%
+\contentsline {subsection}{\numberline {0.1}Context}{17}{subsection.4.0.1}%
+\contentsline {section}{\numberline {1}Ilustrarea elementelor de structură și de compoziție ale nuvelei, semnificative pentru realizarea personajului din nuvela studiată {\footnotesize \normalfont (de exemplu: acțiune, conflict, relații temporale și spațiale, incipit, final, tehnici narative, perspectivă narativă, registre stilistice, limbajul personajelor etc.)}}{17}{section.4.1}%
+\contentsline {section}{\numberline {2}Precizarea statutului social, psihologic, moral etc. al personajului ales}{18}{section.4.2}%
+\contentsline {section}{\numberline {3}Ilustrarea trăsăturilor personajului ales, prin secvențe narative/situații semnificative sau prin citate comentate}{18}{section.4.3}%
+\contentsline {subsection}{\numberline {3.1}Concluzie}{19}{subsection.4.3.1}%
+\contentsline {chapter}{\numberline {5}Eseu privind tema și viziunea despre lume dintr-un roman interbelic, realist -- mitic}{21}{chapter.5}%
+\contentsline {subsection}{\numberline {0.1}Context}{21}{subsection.5.0.1}%
+\contentsline {section}{\numberline {1}Evidențierea trăsăturilor care fac posibilă încadrarea romanului studiat într-o tipologie, într-un curent cultural/literar, într-o orientare tematică}{21}{section.5.1}%
+\contentsline {section}{\numberline {2}Prezentarea temelor romanului studiat}{21}{section.5.2}%
+\contentsline {section}{\numberline {3}Prezentarea elementelor de structură și de compoziție ale textului narativ, semnificative pentru tema și viziunea despre lume din romanul studiat}{22}{section.5.3}%
+\contentsline {subsection}{\numberline {3.1}Concluzie}{23}{subsection.5.3.1}%
+\contentsline {chapter}{\numberline {6}Particularități de construcție a personajului principal din\-tr-un roman interbelic, realist}{25}{chapter.6}%
+\contentsline {subsection}{\numberline {0.1}Context}{25}{subsection.6.0.1}%
+\contentsline {section}{\numberline {1}Ilustrarea elementelor de structură și de compoziție ale romanului, semnificative pentru realizarea personajului din romanul studiat {\footnotesize \normalfont (de exemplu: acțiune, conflict, relații temporale și spațiale, incipit, final, tehnici narative, perspectivă narativă, registre stilistice, limbajul personajelor etc.)}}{25}{section.6.1}%
+\contentsline {section}{\numberline {2}Precizarea statutului social, psihologic, moral etc. al personajului ales}{26}{section.6.2}%
+\contentsline {section}{\numberline {3}Ilustrarea trăsăturilor personajului ales, prin secvențe narative/situații semnificative sau prin citate comentate}{26}{section.6.3}%
+\contentsline {subsection}{\numberline {3.1}Concluzie}{27}{subsection.6.3.1}%
+\contentsline {chapter}{\numberline {7}Eseu cu privire la tema și viziunea despre lume dintr-un roman interbelic realist, obiectiv}{29}{chapter.7}%
+\contentsline {subsection}{\numberline {0.1}Context}{29}{subsection.7.0.1}%
+\contentsline {section}{\numberline {1}Încadrarea romanului studiat într-o tipologie, într-un curent cultural/literar, într-o orientare tematică}{29}{section.7.1}%
+\contentsline {section}{\numberline {2}Ilustrarea temei romanului studiat prin episoade/citate/sec\-ven\-țe comentate}{29}{section.7.2}%
+\contentsline {section}{\numberline {3}Prezentarea elementelor de structură și de compoziție ale textului narativ, semnificative pentru tema și viziunea despre lume {\footnotesize \normalfont (de exemplu: acțiune, conflict, relații temporale și spațiale, incipit, final, tehnici narative, perspectivă narativă, registre stilistice, limbajul personajelor etc.)}}{30}{section.7.3}%
+\contentsline {subsection}{\numberline {3.1}Concluzie}{31}{subsection.7.3.1}%
+\contentsline {chapter}{\numberline {8}Eseu despre particularitățile de construcție a personajului principal dintr-un roman interbelic}{33}{chapter.8}%
+\contentsline {subsection}{\numberline {0.1}Context}{33}{subsection.8.0.1}%
+\contentsline {section}{\numberline {1}Încadrarea romanului studiat într-o tipologie, într-un curent cultural/literar, într-o orientare tematică}{33}{section.8.1}%
+\contentsline {section}{\numberline {2}Ilustrarea temei romanului studiat prin episoade/citate/sec\-ven\-țe comentate}{33}{section.8.2}%
+\contentsline {section}{\numberline {3}Prezentarea statutului social, psihologic, moral etc. al personajului ales, prin raportare la conflictul/conflictele din textul narativ studiat}{34}{section.8.3}%
+\contentsline {section}{\numberline {4}Relevarea unei trăsături a personajului ales, ilustrate prin episoade/citate/secvențe comentate}{34}{section.8.4}%
+\contentsline {subsection}{\numberline {4.1}Concluzie}{35}{subsection.8.4.1}%
+\contentsline {chapter}{\numberline {9}Eseu privind tema și viziunea despre lume într-un roman realist-balzacian studiat}{37}{chapter.9}%
+\contentsline {subsection}{\numberline {0.1}Context}{37}{subsection.9.0.1}%
+\contentsline {section}{\numberline {1}Evidențierea trăsăturilor care fac posibilă încadrarea romanului studiat într-o tipologie, într-un curent cultural/literar, într-o orientare tematică}{37}{section.9.1}%
+\contentsline {section}{\numberline {2}Ilustrarea temei romanului în episoade/citate/secvențe comentate}{38}{section.9.2}%
+\contentsline {section}{\numberline {3}Prezentarea elementelor de structură și de compoziție ale textului narativ, semnificative pentru tema și viziunea despre lume din romanul studiat {\footnotesize \normalfont (de exemplu: acțiune, conflict, relații temporale și spațiale, incipit, final, tehnici narative, perspectivă narativă, registre stilistice, limbajul personajelor etc.)}}{38}{section.9.3}%
+\contentsline {subsection}{\numberline {3.1}Concluzie}{40}{subsection.9.3.1}%
+\contentsline {chapter}{\numberline {10}Eseu despre particularitățile de construcție a personajului principal dintr-un roman realist-balzacian}{41}{chapter.10}%
+\contentsline {subsection}{\numberline {0.1}Context}{41}{subsection.10.0.1}%
+\contentsline {section}{\numberline {1}Ilustrarea elementelor de structură și de compoziție ale romanului, semnificative pentru realizarea personajului din romanul studiat {\footnotesize \normalfont (de exemplu: acțiune, conflict, relații temporale și spațiale, incipit, final, tehnici narative, perspectivă narativă, registre stilistice, limbajul personajelor etc.)}}{41}{section.10.1}%
+\contentsline {section}{\numberline {2}Precizarea statutului social, psihologic, moral etc. al personajului ales}{42}{section.10.2}%
+\contentsline {section}{\numberline {3}Ilustrarea trăsăturilor personajului ales, prin secvențe narative/situații semnificative sau prin citate comentate}{42}{section.10.3}%
+\contentsline {subsection}{\numberline {3.1}Concluzie}{43}{subsection.10.3.1}%
+\contentsline {chapter}{\numberline {11}Eseu cu privire la tema și viziunea despre lume dintr-un roman psihologic studiat}{45}{chapter.11}%
+\contentsline {subsection}{\numberline {0.1}Context}{45}{subsection.11.0.1}%
+\contentsline {section}{\numberline {1}Încadrarea romanului studiat într-o tipologie, într-un curent cultural/literar, într-o orientare tematică}{45}{section.11.1}%
+\contentsline {section}{\numberline {2}Ilustrarea temei romanului prin episoade/citate/secvențe comentate}{45}{section.11.2}%
+\contentsline {section}{\numberline {3}Prezentarea elementelor de structură și de compoziție ale textului narativ, semnificative pentru tema și viziunea despre lume din romanul studiat {\footnotesize \normalfont (de exemplu: acțiune, conflict, relații temporale și spațiale, incipit, final, tehnici narative, perspectivă narativă, registre stilistice, limbajul personajelor etc.)}}{46}{section.11.3}%
+\contentsline {subsection}{\numberline {3.1}Concluzie}{47}{subsection.11.3.1}%
+\contentsline {chapter}{\numberline {12}Eseu despre particularitățile de construcție a personajului principal dintr-un roman psihologic}{49}{chapter.12}%
+\contentsline {subsection}{\numberline {0.1}Context}{49}{subsection.12.0.1}%
+\contentsline {section}{\numberline {1}Elemente de structură și de compoziție ale romanului, semnificative pentru realizarea personajului din romanul studiat {\footnotesize \normalfont (precum: acțiunea, conflictul, relațiile temporale și spațiale, incipitul, finalul, tehnicile narative, perspectiva narativă, registrele stilistice, limbajul personajelor etc.)}}{49}{section.12.1}%
+\contentsline {section}{\numberline {2}Precizarea statutului social, psihologic, moral etc. al personajului ales}{50}{section.12.2}%
+\contentsline {section}{\numberline {3}Ilustrarea trăsăturilor personajului ales, prin secvențe narative/situații semnificative sau prin citate comentate}{50}{section.12.3}%
+\contentsline {subsection}{\numberline {3.1}Concluzie}{51}{subsection.12.3.1}%
+\contentsline {chapter}{\numberline {13}Eseu cu privire la tema și viziunea despre lume dintr-o comedie studiată}{53}{chapter.13}%
+\contentsline {subsection}{\numberline {0.1}Context}{53}{subsection.13.0.1}%
+\contentsline {section}{\numberline {1}Evidențierea trăsăturilor care fac posibilă încadrarea piesei într-o tipologie, într-un curent cultural/literar, într-o orientare tematică}{53}{section.13.1}%
+\contentsline {section}{\numberline {2}Prezentarea elementelor de structură și de compoziție ale textului dramatic, semnificative pentru tema și viziunea despre lume {\footnotesize \normalfont (de exemplu: acțiune, conflict, relații temporale și spațiale, registre stilistice, limbajul personajelor, notațiile autorului etc.)}}{53}{section.13.2}%
+\contentsline {section}{\numberline {3}Ilustrarea temei comediei studiate prin scene/citate/secvențe comentate}{54}{section.13.3}%
+\contentsline {subsection}{\numberline {3.1}Concluzie}{55}{subsection.13.3.1}%
+\contentsline {chapter}{\numberline {14}Eseu cu privire la tema și viziunea despre lume dintr-o comedie studiată}{57}{chapter.14}%
+\contentsline {subsection}{\numberline {0.1}Context}{57}{subsection.14.0.1}%
+\contentsline {section}{\numberline {1}Evidențierea trăsăturilor care fac posibilă încadrarea piesei într-o tipologie, într-un curent cultural/literar, într-o orientare tematică}{57}{section.14.1}%
+\contentsline {section}{\numberline {2}Prezentarea elementelor de structură și de compoziție ale textului dramatic, semnificative pentru tema și viziunea despre lume {\footnotesize \normalfont (de exemplu: acțiune, conflict, relații temporale și spațiale, registre stilistice, limbajul personajelor, notațiile autorului etc.)}}{57}{section.14.2}%
+\contentsline {section}{\numberline {3}Precizarea statutului social, psihologic, moral etc. al personajului ales}{58}{section.14.3}%
+\contentsline {section}{\numberline {4}Ilustrarea unei trăsături a personajului ales, prin sce\-ne/ci\-ta\-te/sec\-ven\-țe comentate}{58}{section.14.4}%
+\contentsline {subsection}{\numberline {4.1}Concluzie}{59}{subsection.14.4.1}%

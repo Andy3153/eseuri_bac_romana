@@ -1,0 +1,89 @@
+% Include the preamble
+\input{../../preamble.tex}
+
+\newcommand{\operatitle}{\textbfit{„O scrisoare pierdută”}} % title of the text
+\newcommand{\operaauthor}{I. L. Caragiale} % author of the text
+
+\title{Eseu cu privire la tema și viziunea despre lume dintr-o comedie studiată}
+
+
+\begin{document}
+\maketitle % Show the title
+%\reversemarginpar % put margin notes on left instead of on right
+
+% Beginning of text
+
+
+\subsection{Context}
+
+Reprezentată pe scenă în 1884, comedia \operatitle\ de \operaauthor\ este a treia piesă dintre cele patru scrise de autor, o capodoperă a genului dramatic. Este o comedie de moravuri, în care sunt satirizate aspecte ale societății contemporane autorului, fiind inspirată din lupta electorală din anul 1883.
+
+
+\section{Evidențierea trăsăturilor care fac posibilă încadrarea piesei într-o tipologie, într-un curent cultural/literar, într-o orientare tematică}
+
+\marginnote{specie dramatică}[0.1cm]
+Comedia este o specie a genului dramatic, care stârnește râsul prin surprinderea unor moravuri, a unor tipuri umane sau a unor situații neașteptate, cu final fericit.
+
+\marginnote{text dramatic}[0.3cm]
+Fiind un text dramatic, comedia este destinată reprezentării scenice, dovadă fiind intervențiile directe ale autorului în piesă, compoziția în patru acte alcătuite din scene și replici, dialogul și monologul ca moduri de expunere, limitarea acțiunii în timp și spațiu.
+
+\marginnote{realism clasic}[0.8cm]
+Comedia aparține realismului clasic. Principiile promovate de societatea culturală \textit{Junimea} și estetica realismului se regăsesc în: critica \textit{„formelor fără fond”} și a politicienilor corupți, satirizarea unor aspecte sociale, spiritul de observație acut, veridicitatea obținută prin tehnica acumulării detaliilor, individualizarea „caracterelor” prin limbaj. Țin de clasicism echilibrul compozițional și generalitatea situațiilor și a caracterelor (prostul fudul, canalia, \textit{„încornoratul”}, cocheta etc.)
+
+\marginnote{tema}[0.3cm]
+Comedia înfățișează aspecte din viața politică (lupta pentru putere în contextul alegerilor pentru Cameră, șantajul, falsificarea listelor electorale) și de familie (triunghiul conjugal Zoe -- Trahanache -- Tipătescu) a unor politicieni corupți.
+
+
+\section{Prezentarea elementelor de structură și de compoziție ale textului dramatic, semnificative pentru tema și viziunea despre lume {\footnotesize\normalfont(de exemplu: acțiune, conflict, relații temporale și spațiale, registre stilistice, limbajul personajelor, notațiile autorului etc.)}}
+
+Titlul pune în evidență intriga și contrastul comic dintre aparență și esență. Pretinsa luptă pentru putere politică se realizează, de fapt, prin lupta de culise, având ca instrument de șantaj politic \textit{„o scrisoare pierdută”} -- pretextul dramatic al comediei. Articolul nehotărât indică atât banalitatea întâmplării, cât și repetabilitatea ei (pierderile succesive ale aceleiași scrisori, amplificate prin repetarea întâmplării în alt context, dar cu același efect).
+
+\marginnote{acțiune}[0.8cm]
+Acțiunea comediei este plasată \textit{„în capitala unui județ de munte, în zilele noastre”}. Reperul spațial vag are efect de generalizare, timpul precizat este sfârșitul secolului al \rom{19}-lea, în perioada campaniei electorale, în interval de trei zile, ca în teatrul clasic.
+
+Intriga piesei pornește de la o întâmplare banală: pierderea unei scrisori intime, compromițătoare pentru reprezentanții locali ai partidului aflat la putere și găsirea ei de către adversarul politic, care o folosește ca armă de șantaj.
+
+\marginnote{conflict}[0.8cm]
+Conflictul dramatic principal constă în înfruntarea pentru putere politică a două forțe opuse: reprezentanții partidului aflat la putere (prefectul Ștefan Tipătescu, Zaharia Trahanache -- președintele grupării locale a partidului -- și Zoe, soția acestuia) și gruparea independentă constituită în jurul lui Nae Cațavencu, ambițios avocat și proprietar al ziarului \textit{„Răcnetul Carpaților”}. Conflictul secundar este reprezentat de grupul Farfuridi -- Brânzovenescu, care se teme de trădarea prefectului.
+
+
+\section{Ilustrarea temei comediei studiate prin scene/citate/secvențe comentate}
+
+Tema comediei constă în satirizarea vieții publice și de familie a unor politicieni din societatea românească de la sfârșitul secolului al \rom{19}-lea.
+
+\marginnote{momentele subiectului}[0.3cm]
+În actul \rom{1}, pierderea scrisorii de amor s-a produs înainte de începerea comediei, astfel că expozițiunea și intriga se reconstituite din replicile personajelor. Scena inițială prezintă personajele Ștefan Tipătescu și Pristanda, care citesc ziarul lui Nae Cațavencu, \textit{„Răcnetul Carpaților”}, și numără steagurile. Venirea lui Trahanache cu vestea deținerii scrisorii de amor de către adversarul lor politic declanșează conflictul dramatic principal.
+
+Actul \rom{2} (desfășurarea acțiunii) începe cu numărarea voturilor, cu o zi înaintea alegerilor. Se declanșează conflictul secundar, teama grupului Farfuridi -- Brânzovenescu de trădarea prefectului. Încercările amorezilor sunt contradictorii: Tipătescu îi ceruse lui Pristanda arestarea lui Cațavencu și percheziția locuinței, Zoe dimpotrivă, îi ordonă eliberarea lui și uzează de mijloacele de convingere feminine pentru a-l determina pe Tipătescu să susțină candidatura avocatului din opoziție, în schimbul scrisorii. Cum prefectul nu acceptă compromisul politic, Zoe îi promite șantajistului sprijinul său. Depeșa primită de la centru solicită însă alegerea altui candidat pentru colegiul al \hbox{\rom{2}-lea}.
+
+În actul \rom{3}, în sala mare a primăriei au loc discursurile candidaților Farfuridi și Cațavencu, la întrunirea electorală. Între timp, Trahanache găsește o poliță falsificată de Cațavencu, pe care intenționează s-o folosească pentru contrașantaj. Apoi anunță în ședință numele candidatului susținut de comitet: Agamiță Dandanache (punctul culminant). În încăierare, Cațavencu pierde pălăria cu scrisoarea, găsită pentru a doua oară de Cetățeanul turmentat, care o va duce destinatarei în actul următor.
+
+Actul \rom{4} aduce rezolvarea conflictului inițial, pentru că scrisoarea ajunge la Zoe, iar Cațavencu se supune condițiilor ei. Intervine un alt personaj, Dandanache, care îi întrece prin prostie și necinste pe candidații provinciali. Propulsarea lui politică este cauzată de o poveste asemănătoare: și el găsise o scrisoare compromițătoare și se folosește de șantaj. În deznodământ, Dandanache este ales în unanimitate, după voința celor de la Centru și cu sprijinul lui Trahanache, iar la festivitatea condusă de Cațavencu, adversarii se împacă.
+
+\marginnote{construcția personajelor}[1.3cm]
+Caragiale este considerat cel mai mare creator de tipuri din literatura română. Personajele acționează stereotip, simplist, ca niște marionete, fără a evolua pe parcursul acțiunii (personaje \textit{„plate”}). Ele aparțin tipologiei clasice pentru că au o dominantă de caracter, dar se apropie de realism, fiind individualizate prin limbaj și prin elemente de statut social și psihologic, care diversifică tipurile -- \textit{„încornoratul”} simpatic și politicianul abil (Trahanache), amorezul și orgoliosul (Tipătescu), cocheta adulterină, dar și femeia voluntară (Zoe), tipul politicianului demagog (Tipătescu, Cațavencu, Farfuridi, Brânzovenescu, Trahanache, Dandanache), tipul cetățeanului (Cetățeanul turmentat) etc.
+
+\marginnote{limbajul personajului}[0.8cm]
+Limbajul personajelor este principala modalitate de individualizare a „caracterelor” clasice și de caracterizare indirectă. Formele greșite ale cuvintelor, erorile de exprimare, ticurile verbale denotă incultura, parvenitismul sau prostia personajelor. De exemplu, Trahanache deformează neologismele din sfera limbajului politic: \textit{„soțietate”}, \textit{„prințip”}, \textit{„dipotat”}, \textit{„docoment”} și are ticul verbal \textit{„Aveți puțintică răbdare”}.
+
+Numele personajelor sugerează trăsătura lor dominantă (Cațavencu este demagog, Farfuridi este prost) sau discrepanța comică dintre prenume (ceea ce vor să pară) și diminutivul familiar (ceea ce sunt), de exemplu: Zoe -- Joițica, Ștefan -- Fănică, iar Agamiță, \textit{„diminutivul caraghios al strașnicului nume Agamemnon”}, purtat de eroul homeric, războinicul cuceritor al Troiei, pronunțat de Trahanache \textit{Gagamiță}.
+
+\marginnote{comic de moravuri}[0.1cm]
+Comicul de moravuri vizează viața de familie (imoralitatea triunghiului conjugal) și viața politică (șantajul, falsificarea listelor electorale, corupția).
+
+\marginnote{comic de situație}[0.6cm]
+Comicul de situație susține tensiunea dramatică prin întâmplări neprevăzute, construite după scheme comice clasice: pierderea și găsirea scrisorii, acumularea progresivă, coincidența, confuzia, repetiția, evoluția inversă a lui Cațavencu (păcălitorul păcălit), perechea Farfuridi -- Brânzovenescu, triunghiul conjugal.
+
+\marginnote{comic de caracter}[0.3cm]
+Comicul de caracter cuprinde tipologiile clasice, reliefând defecte general-umane pe care Caragiale le sancționează prin râs.
+
+\marginnote{comic de nume}[0.8cm]
+Comicul de nume evidențiază dominanta de caracter, originea sau rolul personajelor în desfășurarea evenimentelor. Trahanache provine de la cuvântul \textit{„trahana”}, o cocă moale, ceea ce sugerează că personajul este modelat de \textit{„enteres”}, iar Zaharia (\textit{zaharisitul}, ramolitul, ticăitul); Nae (populistul, păcălitorul păcălit), Cațavencu (demagogul lătrător); numele Dandanache vine de la \textit{„dandana”} (boacănă, gafă), nume sugestiv pentru cel care creează confuzii penibile; numele Farfuridi și Brânzovenescu au rezonanțe culinare, sugerând prostia.
+
+Prin comicul de limbaj, sursă de caracterizare indirectă, se evidențiază incultura personajelor, ușor de dedus din ticuri verbale și greșeli de exprimare \textit{„bampir”}, \textit{„soțietate”}, \textit{„renumerație”}.
+
+
+\subsection{Concluzie}
+
+Prin toate aceste mijloace, piesa provoacă râsul, dar, în același timp, atrage atenția cititorilor/spectatorilor, în mod critic, asupra \textit{„comediei umane”}.
+\end{document}
