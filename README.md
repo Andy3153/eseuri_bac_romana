@@ -1,6 +1,7 @@
 # Esee pentru bacalaureatul la română
 
 # Document care conține tot ( [view](book/book.pdf) | [download](../../raw/master/book/book.pdf) )
+# Repozitoriul este pe: [GitLab](https://gitlab.com/Andy3153/esee_bac_romana) [GitHub](https://github.com/Andy3153/esee_bac_romana)
 
 Nu am ce spune mai mult. Nu le-am scris eu, decât le-am rescris în LaTeX pentru mine, am zis să le am undeva online și poate mai ajută pe cineva.
 
