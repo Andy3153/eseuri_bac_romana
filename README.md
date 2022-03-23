@@ -1,7 +1,7 @@
-# Esuri pentru bacalaureatul la română
+# Eseuri pentru bacalaureatul la română
 
 # Document care conține tot ( [view](book/book.pdf) | [download](../../raw/master/book/book.pdf) )
-# Repozitoriul este pe: [GitLab](https://gitlab.com/Andy3153/eseuri_bac_romana) [GitHub](https://github.com/Andy3153/eseuri_bac_romana)
+# Repozitoriul este pe [GitLab](https://gitlab.com/Andy3153/eseuri_bac_romana) și pe [GitHub](https://github.com/Andy3153/eseuri_bac_romana)
 
 Nu am ce spune mai mult. Nu le-am scris eu, decât le-am rescris în LaTeX pentru mine, am zis să le am undeva online și poate mai ajută pe cineva.
 
