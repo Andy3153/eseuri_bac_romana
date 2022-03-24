@@ -88,3 +88,9 @@
 \contentsline {section}{\numberline {3}Precizarea statutului social, psihologic, moral etc. al personajului ales}{58}{section.14.3}%
 \contentsline {section}{\numberline {4}Ilustrarea unei trăsături a personajului ales, prin sce\-ne/ci\-ta\-te/sec\-ven\-țe comentate}{58}{section.14.4}%
 \contentsline {subsection}{\numberline {4.1}Concluzie}{59}{subsection.14.4.1}%
+\contentsline {chapter}{\numberline {15}Eseu cu privire la tema și viziunea despre o poezie romantică}{61}{chapter.15}%
+\contentsline {subsection}{\numberline {0.1}Context}{61}{subsection.15.0.1}%
+\contentsline {section}{\numberline {1}Prezentarea originii și a sursei de inspirație a operei literare}{61}{section.15.1}%
+\contentsline {section}{\numberline {2}Evidențierea trăsăturilor care fac posibilă încadrarea piesei într-o tipologie, într-un curent cultural/literar, într-o orientare tematică}{61}{section.15.2}%
+\contentsline {section}{\numberline {3}Prezentarea elementelor de structură și de compoziție ale textului dramatic, semnificative pentru tema și viziunea despre lume {\footnotesize \normalfont (de exemplu: acțiune, conflict, relații temporale și spațiale, registre stilistice, limbajul personajelor, notațiile autorului etc.)}}{62}{section.15.3}%
+\contentsline {subsection}{\numberline {3.1}Concluzie}{64}{subsection.15.3.1}%
