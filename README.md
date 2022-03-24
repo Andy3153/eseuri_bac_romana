@@ -44,13 +44,14 @@ Aceste fișiere au fost compilate folosind XeLaTeX. Inițial am folosit pdfLaTeX
 ```
 
 ## Cum să îl compilezi singur
-- Trebuie descărcat întreg proiectul, dacă nu dorești să faci schimbări în documentele TeX
-- Recomand să folosești XeLaTeX, pentru că asta am folosit și eu când am cpmpilat PDF-urile
+- Trebuie descărcat întreg proiectul, nu numai un singur fișier, dacă nu dorești să faci schimbări în documentele TeX
+- Recomand să folosești XeLaTeX, pentru că asta am folosit și eu când am compilat PDF-urile
 
 ## TODO
-- Corectat pentru greșeli gramaticale (în progres)
-- Trecut la noul format (ex: cu preambul centralizat etc.) (în progres)
-- Făcut un document mare, sub formă de carte, care să conțină tot (în progres)
+- [ ] Corectat pentru greșeli gramaticale (în progres)
+- [ ] Trecut la noul format (ex: cu preambul centralizat etc.) (în progres)
+- [ ] Făcut un document mare, sub formă de carte, care să conțină tot (în progres)
+- [ ] De scris și modele pentru subiectul II la finalul cărții (după ce termin restul de mai sus)
 
 # Licență
 Am ales ceva extrem de permisiv pentru că ceea ce e scris în documente nu îmi aparține până la urmă. Licența este [WTFPL](http://www.wtfpl.net).
