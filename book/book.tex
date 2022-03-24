@@ -1,3 +1,4 @@
+%!TEX TS-program = xelatex
 %%
 %% Book containing everything in this repo
 %% COMPILE WITH XeLaTeX
@@ -143,6 +144,8 @@
 
 % esee
 % gen epic
+\clearpage
+\addcontentsline{toc}{chapter}{\textbf{Gen epic}}
 % harap-alb
 \chapter{Eseu cu privire la tema și viziunea despre lume dintr-un basm cult studiat}
 \input{../2021.10.09 („Povestea lui Harap-Alb” de Ion Creangă)/Eseu basm cult/content.tex}
@@ -192,6 +195,9 @@
 
 
 % gen dramatic
+\addtocontents{toc}{\protect\newpage}
+\clearpage
+\addcontentsline{toc}{chapter}{\textbf{Gen dramatic}}
 % osp
 \chapter{Eseu cu privire la tema și viziunea despre lume dintr-o comedie studiată}
 \input{../2022.01.15 („O scrisoare pierdută” de I. L. Caragiale)/Eseu comedie/content.tex}
@@ -201,6 +207,8 @@
 
 
 % gen liric
+\clearpage
+\addcontentsline{toc}{chapter}{\textbf{Gen liric}}
 % luceafarul
 \chapter{Eseu cu privire la tema și viziunea despre o poezie romantică}
 \input{../2022.01.22 („Luceafărul” de Mihai Eminescu)/Eseu poezie romantica/content.tex}

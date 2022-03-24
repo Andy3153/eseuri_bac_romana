@@ -2,6 +2,7 @@
 \renewcommand {\cftchappagefont }{\normalfont }
 \renewcommand {\cftchapfont }{\normalfont }
 \renewcommand {\cftchapleader }{\normalfont \cftdotfill {\cftsecdotsep }}
+\contentsline {chapter}{\textbf {Gen epic}}{5}{chapter*.1}%
 \contentsline {chapter}{\numberline {1}Eseu cu privire la tema și viziunea despre lume dintr-un basm cult studiat}{5}{chapter.1}%
 \contentsline {subsection}{\numberline {0.1}Context}{5}{subsection.1.0.1}%
 \contentsline {section}{\numberline {1}Evidențierea trăsăturilor care fac posibilă încadrarea basmului studiat în specia literară pe care o ilustrează}{5}{section.1.1}%
@@ -75,6 +76,8 @@
 \contentsline {section}{\numberline {2}Precizarea statutului social, psihologic, moral etc. al personajului ales}{50}{section.12.2}%
 \contentsline {section}{\numberline {3}Ilustrarea trăsăturilor personajului ales, prin secvențe narative/situații semnificative sau prin citate comentate}{50}{section.12.3}%
 \contentsline {subsection}{\numberline {3.1}Concluzie}{51}{subsection.12.3.1}%
+\newpage 
+\contentsline {chapter}{\textbf {Gen dramatic}}{52}{subsection.12.3.1}%
 \contentsline {chapter}{\numberline {13}Eseu cu privire la tema și viziunea despre lume dintr-o comedie studiată}{53}{chapter.13}%
 \contentsline {subsection}{\numberline {0.1}Context}{53}{subsection.13.0.1}%
 \contentsline {section}{\numberline {1}Evidențierea trăsăturilor care fac posibilă încadrarea piesei într-o tipologie, într-un curent cultural/literar, într-o orientare tematică}{53}{section.13.1}%
@@ -88,6 +91,7 @@
 \contentsline {section}{\numberline {3}Precizarea statutului social, psihologic, moral etc. al personajului ales}{58}{section.14.3}%
 \contentsline {section}{\numberline {4}Ilustrarea unei trăsături a personajului ales, prin sce\-ne/ci\-ta\-te/sec\-ven\-țe comentate}{58}{section.14.4}%
 \contentsline {subsection}{\numberline {4.1}Concluzie}{59}{subsection.14.4.1}%
+\contentsline {chapter}{\textbf {Gen liric}}{60}{subsection.14.4.1}%
 \contentsline {chapter}{\numberline {15}Eseu cu privire la tema și viziunea despre o poezie romantică}{61}{chapter.15}%
 \contentsline {subsection}{\numberline {0.1}Context}{61}{subsection.15.0.1}%
 \contentsline {section}{\numberline {1}Prezentarea originii și a sursei de inspirație a operei literare}{61}{section.15.1}%

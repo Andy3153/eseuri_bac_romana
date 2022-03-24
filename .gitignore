@@ -1,7 +1,8 @@
 ##
 ## .gitignore by Andy3153
-## created  30/10/20 ~ 16:49:38
-## modified 24/08/21 ~ 15:08:52
+## created   30/10/20 ~ 16:49:38
+## modified1 24/08/21 ~ 15:08:52
+## modified2 24/03/22 ~ 13:39:22
 ##
 
 # backups/backups KDevelop creates automatically
@@ -22,7 +23,9 @@
 # a folder I have in the original git repo
 /etc/sdfsdf
 
-# files created by LaTex that aren't needed
+# files created by LaTeX at compile time
 **/*.aux
 **/*.log
+**/*.out
 **/*.synctex.gz
+**/*.toc
