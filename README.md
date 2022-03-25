@@ -48,10 +48,10 @@ Aceste fișiere au fost compilate folosind XeLaTeX. Inițial am folosit pdfLaTeX
 - Recomand să folosești XeLaTeX, pentru că asta am folosit și eu când am compilat PDF-urile
 
 ## TODO
-- [ ] Corectat pentru greșeli gramaticale (în progres)
-- [ ] Trecut la noul format (ex: cu preambul centralizat etc.) (în progres)
-- [ ] Făcut un document mare, sub formă de carte, care să conțină tot (în progres)
-- [ ] De scris și modele pentru subiectul II la finalul cărții (după ce termin restul de mai sus)
+- [x] Corectat pentru greșeli gramaticale (gata)
+- [x] Trecut la noul format (ex: cu preambul centralizat etc.) (gata)
+- [x] Făcut un document mare, sub formă de carte, care să conțină tot (gata)
+- [ ] De scris și modele pentru subiectul II la finalul cărții (în progres)
 
 # Licență
 Am ales ceva extrem de permisiv pentru că ceea ce e scris în documente nu îmi aparține până la urmă. Licența este [WTFPL](http://www.wtfpl.net).
