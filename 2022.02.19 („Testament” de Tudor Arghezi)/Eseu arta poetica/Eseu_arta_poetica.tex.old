@@ -1,0 +1,119 @@
+%%
+%% Basic LaTeX template by Andy3153
+%% created   04/10/21 ~ 18:21:32
+%% modified1 15/10/21 ~ 23:15:05
+%% modified2 03/11/21 ~ 18:37:45
+%%
+
+% Document preamble
+\documentclass[
+12pt,
+a4paper
+]{article}
+
+% Packages
+\usepackage[
+margin=2.7cm,                % Margin size
+marginparwidth=2cm,          % Margin note size
+marginparsep=3mm             % Space between margin and text
+]{geometry}
+\usepackage[utf8]{inputenc}  % UTF-8 support
+\usepackage[T1]{fontenc}     % Proper hyphenation
+\usepackage[romanian]{babel} % Romanian characters support
+\usepackage{indentfirst}     % Add paragraph indentation even after a section
+\usepackage{marginnote}      % Notes on the margins of a document (more advanced \marginpar)
+\usepackage{titlesec}        % Customize titles
+
+% Custom titles, sections, subsections etc. format
+\titleformat*{\section}{\large\bfseries}
+\titleformat{\subsection}{\normalfont\normalfont\bfseries}{}{0pt}{}
+
+% Page numbering
+%\pagenumbering{gobble} % uncomment if you want to disable it
+
+% Custom commands
+% Format: \newcommand{\command}{action (add '\ ' or '{}' if it won't add a space properly)}
+\newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}} % Roman numerals
+\newcommand{\operatitle}{\textbf{\textit{„Testament”\ }}} % title of the commented opera
+\newcommand{\operaauthor}{Tudor Arghezi\ } % author of the commented opera
+
+% Basic document info
+\title{Eseu cu privire la tema și viziunea despre lume într-o poezie modernistă/artă poetică studiată}
+\date{}   % Show no date in the title
+\author{} % Empty author to not get a warn about missing author
+
+\begin{document}
+\maketitle % Show the title
+%\reversemarginpar % put margin notes on left instead of on right
+
+
+% Beginning of text
+
+\subsection{Context}
+
+Poezia \operatitle de \operaauthor face parte din seria artelor poetice moderne ale literaturii române din perioada interbelică. Poezia este așezată în fruntea primului volum arghezian, \textbf{\textit{„Cuvinte potrivite”}} (1927), și are rol de program literar, realizat însă cu mijloace artistice.
+
+\operaauthor este un înnoitor al limbajului poetic, prin încălcarea convențiilor și a regulilor. Particularități ale modernismului în poezia lui sunt: \underline{estetica urâtului}, limbajul șocant, cu neașteptate asocieri lexicale și semantice, fantezia metaforică, înnoirile prozodice. Ține de tradiționalism ideea legăturii dintre generații și opțiunea pentru tematica socială.
+
+\section{Evidențierea trăsăturilor care fac posibilă încadrarea textului poetic studiat într-un curent cultural/literar, într-o perioadă sau într-o orientare tematică}
+
+\operatitle este o artă poetică, deoarece autorul își exprimă propriile convingeri despre arta literară, despre menirea literaturii, despre rolul artistului în societate.
+
+\marginnote{artă poetică modernă}[0.3cm]
+Este o artă poetică modernă, pentru că în cadrul ei apare o problematică specifică liricii moderne: transfigurarea socialului în estetic, estetica urâtului, raportul dintre inspirație și tehnica poetică. Interesul poeților de a reflecta asupra creației lor, de a-și sintetiza concepția artistică și de a o transmite cititorilor, astfel că fiecare volum este deschis de o artă poetică.
+
+\section{Prezentarea imaginilor/ideilor poetice, relevante pentru tema și viziunea despre lume din textul studiat}
+
+Tema poeziei o reprezintă creația literară în ipostaza de meșteșug, creație lăsată ca moștenire unui fiu spiritual -- posterității.
+
+\marginnote{ipostaze lirice}[1.2cm]
+Textul poetic este conceput ca un monolog adresat de tată unui fiu spiritual căruia îi este lăsată drept unică moștenire \textit{„cartea”}, metonimie care sugerează opera literară. Cele două ipostaze lirice sunt desemnate de pronumele \textit{eu} (tatăl spiritual, poetul) și \textit{tu} („fiul”, cititorul, urmașii), iar în finalul poeziei, de metonimiile \textit{„robul”} -- \textit{„Domnul”}. Lirismul subiectiv se justifică prin atitudinea poetică transmisă în mod direct și, la nivelul expresiei, prin mărcile eului liric: pronume și verbe de persoana \rom{1} singular (\textit{„eu am ivit”}, \textit{„am preschimbat”}), adjective posesive (\textit{„cartea mea”}), care se referă la eul liric, dar și pronume și verbe de persoana a \rom{2}-a singular (\textit{„te”}, \textit{„tine”}, \textit{„urci”}) sau substantive în vocativ (\textit{„fiule”}), care desemnează interlocutorul imaginar.
+
+%\marginnote{poet meșteșugar}[0.5cm]
+%Arta poetică \operatitle ilustrează viziunea lui Arghezi asupra lumii, atitudinea sa de poet responsabil în fața urmașilor cititori, responsabil pentru mesajul și valoarea estetică a operei sale. Este un poet angajat social, care își transfigurează în artă suferințele, apelând la \textit{estetica urâtului}: \textit{„Din bube, mucegaiuri și noroi/Iscat-am frumuseți și prețuri noi”}. Creatorul se proiectează în ipostaza poetului meșteșugar (\textit{poeta faber}), un \textit{„șlefuitor de cuvinte”}: \textit{„Din graiul lor cu-ndemnuri pentru vite/Eu am ivit cuvinte potrivite”}.
+
+%Poezia sa este o „carte”, adică un bun spiritual prin care scriitorul contribuie la emanciparea neamului său.
+
+
+\section{Ilustrarea elementelor de compoziție și de limbaj ale textului poetic studiat, semnificative pentru tema și viziunea despre lume {\footnotesize (de exemplu: imaginar poetic, titlu, incipit, relații de opoziție și de simetrie, motiv poetic, laitmotiv, figuri semantice/tropi, elemente de prozodie etc.)}}
+
+Titlul poeziei are două sensuri: unul denotativ și altul conotativ. În sens propriu, denotativ, cuvântul-titlu desemnează un act juridic prin care o persoană își exprimă dorințele ce urmează a-i fi îndeplinite după moarte, cu privire la transmiterea averii sale. Titlul amintește și de cărțile \textbf{\textit{Bibliei}}, \textbf{\textit{Vechiul Testament}} și \textbf{\textit{Noul Testament}}, care conțin învățături religioase adresate omenirii. De aici derivă sensul figurat, conotativ al titlului: creația argheziană, \textit{„cartea”}, este o moștenire spirituală lăsată de poet urmașilor.
+
+\marginnote{cartea -- motiv central}[0.3cm]
+Ca element de recurență, cuvântul \textit{„carte”} are o bogată serie sinonimică în text: \textit{„testament”}, \textit{„hrisov”}, \textit{„cuvinte potrivite”}, \textit{„slova de foc și slova făurită”}.
+
+Textul poetic este structurat în cinci strofe cu număr inegal de versuri, grupate în trei secvențe poetice. Prima secvență (strofele \rom{1}, \rom{2}) sugerează legătura dintre generații: străbuni, poet și cititorii-urmași. Secvența a doua (strofele \rom{3}, \rom{4}) redă rolul etic, estetic și social al poeziei. A treia secvență poetică (ultima strofă) reprezintă contopirea dintre har și trudă în poezie. Simetria textului este dată de plasarea cuvântului-cheie \textit{„carte”} și a sinonimelor sale în cele trei secvențe poetice.
+
+Incipitul, conceput ca o adresare directă a eului liric către un fiu spiritual (\textit{„Nu-ți voi lăsa drept bunuri după moarte/Decât...”}), evidențiază sensul titlului, ideea moștenirii spirituale, \textit{„un nume adunat pe-o carte”}.
+
+În prima strofă, secvența sugerează un potențial cititor, poetul identificându-se, în mod simbolic, cu un tată. Cartea este \textit{„o treaptă”} în desăvârșirea cunoașterii.
+
+În strofa a doua, \textit{„cartea”}, creația elaborată cu trudă de poet, este numită metaforic \textit{„hrisovul vostru cel dintâi”}, cartea de căpătâi a urmașilor.
+
+Ideea centrală din cea ce de-a treia strofă este paralelismul și suprapunerea cu lumea obiectuală.
+\marginnote{poezia cu meșteșug}[0.3cm]
+În viziunea lui Arghezi, prin artă, cuvintele se metamorfozează, păstrându-și însă forța expresivă, idee exprimată prin oximoronul din versurile: \textit{„Veninul strâns l-am preschimbat în miere,/Lăsând întreagă dulcea lui putere”}.
+
+În strofa a patra apare ideea transfigurării socialului în estetic, prin faptul că durerea, revolta socială sunt concentrate în poezie, simbolizată prin metafora \textit{„vioară”}.
+
+\marginnote{estetica urâtului}[0.3cm]
+La fel ca poetul francez Charles Baudelaire, în volumul \textbf{\textit{„Florile răului”}}, Arghezi consideră că orice aspect al realității, indiferent că este frumos sau urât, sublim sau grotesc, poate constitui material poetic: \textit{„Din bube, mucegaiuri și noroi/Iscat-am frumuseți și prețuri noi”}.
+
+Ultima strofă evidențiază faptul că muza, arta contemplativă, \textit{„pierde”} în favoarea meșteșugului poetic.
+\marginnote{poezia ca inspirație}[0.8cm]
+Poezia este atât rezultatul inspirației, al harului divin, sugerat de metafora \textit{„slova de foc”}, cât și rezultatul meșteșugului, al trudei poetice, dedus din metafora \textit{„slova făurită”}.
+
+Sursele expresivității și ale sugestiei se regăsesc la fiecare nivel al limbajului poetic, Tudor Arghezi fiind renumit pentru înnoirile lexicale, uneori șocante.
+
+Figurile de stil și imaginile artistice sunt puse în relație cu o concepție nouă, modernă, privind poezia, resursele ei și misiunea poetului. Materialitatea imaginilor artistice se realizează prin fantezia metaforică, rezultând asocieri semantice surprinzătoare: comparația inedită (\textit{„Împărechiate-n carte se mărită/Ca fierul cald îmbrățișat în clește”}), epitetul rar (\textit{„seara răzvrătită”}, \textit{„dulcea lui putere”}, \textit{„torcând ușure”}, \textit{„Dumnezeu de piatră”}, \textit{„durerea... surdă și amară”}), oximoronul (\textit{„Veninul strâns l-am preschimbat în miere,/Lăsând întreagă dulcea lui putere”}).
+
+\marginnote{elemente de prozodie}[0.3cm]
+Prozodia, îmbinând tradiție și modernitate, este inedită: poezia cuprinde strofe inegale ca număr de versuri, cu metrică (9-11 silabe) și ritm variabile, în funcție de intensitatea sentimentelor și de ideile exprimate. Rima ține de vechile convenții, fiind împerecheată.
+
+\subsection{Concluzie}
+
+Poezia \operatitle de \operaauthor este o artă poetică de sinteză pentru orientările poeziei interbelice, tradiționalism și modernism. Pornind de la aspectele liricii tradiționale, oferă alternative poetice moderne într-o operă poetică originală.
+
+
+
+\end{document}
