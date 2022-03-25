@@ -24,12 +24,10 @@
 \usepackage{graphicx}        % Image support
 \usepackage{xcolor}          % Custom colors
 \usepackage{fancyhdr}        % Custom headers
-\usepackage{etoolbox}        % Customize chapters
 \usepackage[titles]{tocloft} % Customize ToC
-\usepackage{blindtext}       % Sample filler text
 
 % Image path
-\graphicspath{ {./src/} }
+\graphicspath{ {../img/} }
 
 % Hyperlink configuration
 \hypersetup{
@@ -38,7 +36,7 @@
  linkcolor=black  % ToC links color
 }
 
-% Colors
+% Colors (for chapter)
 \definecolor{gray75}{gray}{0.75}
 
 % Custom format for titles, sections etc.
@@ -50,7 +48,7 @@
 
 \titleformat{\chapter}[hang]
  {\Large}
- {\thechapter\hspace{15pt}\textcolor{gray75}{|}\hspace{15pt}}
+ {\thechapter  \ifnum\value{chapter} > 9 {\hspace{7pt}}\else{\hspace{15pt}}\fi  \textcolor{gray75}{|}\hspace{15pt}}
  {0pt}
  {\thispagestyle{chapterfancystyle}\Large}
 
@@ -114,24 +112,8 @@
 
 
 \begin{document}
-% Create a title page
-\begin{titlepage}
- \centering
- \vspace*{1cm}
- \vspace{4\baselineskip}
- {\Huge
- Eseuri pentru bacalaureatul la \\ Limba și Literatura Română\par}
- \vspace{4\baselineskip}
- de\par
- {\Large\textsc{Dobrete Andrei-Robert}\par}
- \vfill
- \includegraphics[height=\fontcharht\font`\B]{gitlab}
- \url{gitlab.com/Andy3153/eseuri_bac_romana}\par
- \includegraphics[height=\fontcharht\font`\B]{github}
- \url{github.com/Andy3153/eseuri_bac_romana}\par
- \vspace{1.5\baselineskip}
- {\large\LaTeXe}
-\end{titlepage}
+% Import the title page
+\input{titlepage.tex}
 
 % Disable bold in ToC
 \addtocontents{toc}{\string\renewcommand{\protect\cftchappagefont}{\protect\normalfont}}

@@ -1,17 +1,15 @@
+%!TEX TS-program = xelatex
 %%
 %% Basic LaTeX template by Andy3153
 %% created   04/10/21 ~ 18:21:32
 %% modified1 15/10/21 ~ 23:15:05
 %% modified2 03/11/21 ~ 18:37:45
 %% modified3 22/02/22 ~ 12:48:17
-%%
-
 
 \documentclass[
  12pt,                        % Font size
  a4paper                      % Paper type
 ]{article}
-
 
 % Packages
 \usepackage[
@@ -26,40 +24,28 @@
 \usepackage{marginnote}      % Notes on the margins of a document (more advanced \marginpar)
 \usepackage{titlesec}        % Customize titles
 
-
 % Custom format for titles, sections, subsections etc.
 \titleformat*{\section}{\large\bfseries}
 \titleformat{\subsection}{\normalfont\normalfont\bfseries}{}{1.5em}{}
 
-
 % Page numbering
 %\pagenumbering{gobble} % uncomment if you want to disable it
-
 
 % Custom commands
 % Format: \newcommand{\command}[variable]{action #variable}
 \newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}} % Roman numerals
 \newcommand{\textbfit}[1]{\textbf{\textit{#1}}}                      % combine bold and italic
-\newcommand{\largertext}[1]{
- \vspace{0.0cm}
- \normalfont\textbf{#1}
- \vspace{0.25cm}
-} % kinda larger text and bolded
-
 
 % Customize \marginnote font
 \renewcommand\marginfont{\ttfamily\footnotesize}
-
 
 % Make \ttfamily hyphenate words for the margin notes
 \DeclareFontFamily{OT1}{cmtt}{\hyphenchar\font=-1}
 \DeclareFontFamily{\encodingdefault}{\ttdefault}{\hyphenchar\font=`\-}
 \DeclareFontFamily{T1}{cmtt}{\hyphenchar\font=45}
 
-
 % Make subsections not appear in ToC as we're using them for a completely different thing
 \setcounter{tocdepth}{1}
-
 
 % Basic document info
 \title{}
@@ -68,10 +54,9 @@
 
 
 \begin{document}
-\maketitle % Show the title
-%\reversemarginpar % put margin notes on left instead of on right
+ \maketitle % show title
 
-% Beginning of text
+ % Beginning of text
 
 
 \end{document}
