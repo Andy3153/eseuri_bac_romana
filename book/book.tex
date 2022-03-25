@@ -81,6 +81,11 @@
 \setcounter{tocdepth}{0}     % Make only chapters appear in ToC
 \renewcommand{\cftdot}{}     % Remove ToC dots
 
+% Disable bold in ToC
+\addtocontents{toc}{\string\renewcommand{\protect\cftchappagefont}{\protect\normalfont}}
+\addtocontents{toc}{\string\renewcommand{\protect\cftchapfont}{\protect\normalfont}}
+\addtocontents{toc}{\string\renewcommand{\protect\cftchapleader}{\protect\normalfont\protect\cftdotfill{\protect\cftsecdotsep}}}
+
 % Custom fancy styles
 \fancypagestyle{chapterfancystyle}{
  \fancyhf{}
@@ -112,13 +117,7 @@
 
 
 \begin{document}
-% Import the title page
-\input{titlepage.tex}
-
-% Disable bold in ToC
-\addtocontents{toc}{\string\renewcommand{\protect\cftchappagefont}{\protect\normalfont}}
-\addtocontents{toc}{\string\renewcommand{\protect\cftchapfont}{\protect\normalfont}}
-\addtocontents{toc}{\string\renewcommand{\protect\cftchapleader}{\protect\normalfont\protect\cftdotfill{\protect\cftsecdotsep}}}
+\input{titlepage.tex} % Import the title page
 
 % EVERYTHING YOU SEE HERE
 %      was made in order to
