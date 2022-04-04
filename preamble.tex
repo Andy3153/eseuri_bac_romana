@@ -59,6 +59,7 @@
 \usepackage{indentfirst}     % Add paragraph indentation even after a section
 \usepackage{marginnote}      % Notes on the margins of a document (more advanced \marginpar)
 \usepackage{titlesec}        % Customize titles
+\usepackage{etoolbox}        % Customize more stuff
 
 
 % Custom format for titles, sections, subsections etc.
@@ -76,7 +77,16 @@
 \newcommand{\textbfit}[1]{\textbf{\textit{#1}}}                      % combine bold and italic
 \newcommand{\operatitle}{}                                           % to not get errors
 \newcommand{\operaauthor}{}                                          % to not get errors
-
+\newcommand{\ApplySubIIStyling}                                      % custom styling for a part of the document
+{
+ \setcounter{tocdepth}{1} % Now begin allowing sections to appear
+ \preto\section
+ {
+  \ifnum\value{section} = 0
+   \else\clearpage
+  \fi
+ }
+}
 
 
 % Customize \marginnote font

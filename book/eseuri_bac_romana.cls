@@ -22,6 +22,7 @@
 \RequirePackage{fancyhdr}        % Custom headers
 \RequirePackage[titles]{tocloft} % Customize ToC
 \RequirePackage{hyperref}        % Hyperlink support, keep last in package list!
+\RequirePackage{etoolbox}        % Customize more stuff
 
 % Image path
 \graphicspath{ {../img/} }
@@ -66,6 +67,16 @@
 \newcommand{\textbfit}[1]{\textbf{\textit{#1}}}                      % combine bold and italic
 \newcommand{\operatitle}{}                                           % to not get errors
 \newcommand{\operaauthor}{}                                          % to not get errors
+\newcommand{\ApplySubIIStyling}                                      % custom styling for a part of the document
+{
+ \setcounter{tocdepth}{1} % Now begin allowing sections to appear
+ \preto\section
+ {
+  \ifnum\value{section} = 0
+   \else\clearpage
+  \fi
+ }
+}
 
 \newcommand{\CustomToC} % command to generate ToC with empty pagestyle
 {
