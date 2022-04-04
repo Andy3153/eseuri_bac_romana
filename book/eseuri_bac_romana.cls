@@ -65,6 +65,8 @@
 % Format: \newcommand{\command}[variable]{action #variable}
 \newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}} % Roman numerals
 \newcommand{\textbfit}[1]{\textbf{\textit{#1}}}                      % combine bold and italic
+\newcommand{\ex}[1]{\fbox{\texttt{#1}}}                              % things to be filled by the reader
+\newcommand{\comment}[1]{}                                           % comments
 \newcommand{\operatitle}{}                                           % to not get errors
 \newcommand{\operaauthor}{}                                          % to not get errors
 \newcommand{\ApplySubIIStyling}                                      % custom styling for a part of the document
