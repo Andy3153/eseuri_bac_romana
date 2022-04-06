@@ -59,7 +59,8 @@
 \usepackage{indentfirst}     % Add paragraph indentation even after a section
 \usepackage{marginnote}      % Notes on the margins of a document (more advanced \marginpar)
 \usepackage{titlesec}        % Customize titles
-\usepackage{etoolbox}        % Customize more stuff
+%\usepackage{ulem}            % More underlines
+\usepackage[dash,dot]{dashundergaps}
 
 
 % Custom format for titles, sections, subsections etc.
@@ -75,21 +76,14 @@
 % Format: \newcommand{\command}[variable]{action #variable}
 \newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}} % Roman numerals
 \newcommand{\textbfit}[1]{\textbf{\textit{#1}}}                      % combine bold and italic
-\newcommand{\ex}[1]{\fbox{\texttt{\footnotesize#1}}}                              % things to be filled by the reader
+\newcommand{\ex}[1]{\dashuline{\texttt{\footnotesize#1}}}                              % things to be filled by the reader
 \newcommand{\comment}[1]{}                                           % comments
 \newcommand{\operatitle}{}                                           % to not get errors
 \newcommand{\operaauthor}{}                                          % to not get errors
 \newcommand{\ApplySubIIStyling}                                      % custom styling for a part of the document
 {
  \setcounter{tocdepth}{1} % Now begin allowing sections to appear
- \comment{
- \preto\section
- {
-  \ifnum\value{section} = 0
-   \else\clearpage
-  \fi
- }
- }
+ %\newcommand{\sectionbreak}{\ifnum\value{section}>0 \clearpage\fi}
 }
 
 

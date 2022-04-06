@@ -22,7 +22,6 @@
 \RequirePackage{fancyhdr}        % Custom headers
 \RequirePackage[titles]{tocloft} % Customize ToC
 \RequirePackage{hyperref}        % Hyperlink support, keep last in package list!
-\RequirePackage{etoolbox}        % Customize more stuff
 
 % Image path
 \graphicspath{ {../img/} }
@@ -72,12 +71,7 @@
 \newcommand{\ApplySubIIStyling}                                      % custom styling for a part of the document
 {
  \setcounter{tocdepth}{1} % Now begin allowing sections to appear
- \preto\section
- {
-  \ifnum\value{section} = 0
-   \else\clearpage
-  \fi
- }
+ \newcommand{\sectionbreak}{\ifnum\value{section}>0 \clearpage\fi}
 }
 
 \newcommand{\CustomToC} % command to generate ToC with empty pagestyle
