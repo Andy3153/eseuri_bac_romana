@@ -21,7 +21,9 @@
 \RequirePackage{xcolor}          % Custom colors
 \RequirePackage{fancyhdr}        % Custom headers
 \RequirePackage[titles]{tocloft} % Customize ToC
+\RequirePackage[dash]{dashundergaps}
 \RequirePackage{hyperref}        % Hyperlink support, keep last in package list!
+\RequirePackage{bookmark}
 
 % Image path
 \graphicspath{ {../img/} }
@@ -64,14 +66,17 @@
 % Format: \newcommand{\command}[variable]{action #variable}
 \newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}} % Roman numerals
 \newcommand{\textbfit}[1]{\textbf{\textit{#1}}}                      % combine bold and italic
-\newcommand{\ex}[1]{\fbox{\texttt{#1}}}                              % things to be filled by the reader
+\newcommand{\ex}[1]{\dashuline{\texttt{\footnotesize#1}}}                              % things to be filled by the reader
 \newcommand{\comment}[1]{}                                           % comments
 \newcommand{\operatitle}{}                                           % to not get errors
 \newcommand{\operaauthor}{}                                          % to not get errors
 \newcommand{\ApplySubIIStyling}                                      % custom styling for a part of the document
 {
- \setcounter{tocdepth}{1} % Now begin allowing sections to appear
- \newcommand{\sectionbreak}{\ifnum\value{section}>0 \clearpage\fi}
+ %\setcounter{tocdepth}{0} % Now begin allowing sections to appear
+  \addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+  \setcounter{tocdepth}{1}
+  \setcounter{section}{0}
+ %\newcommand{\sectionbreak}{\ifnum\value{section}>0 \clearpage\fi}
 }
 
 \newcommand{\CustomToC} % command to generate ToC with empty pagestyle
@@ -97,6 +102,12 @@
  }
  \pagestyle{plain}        % revert to plain pagestyle
 }
+
+% Fix errors in PDF bookmark generation
+\pdfstringdefDisableCommands{
+ \def\\{}
+}
+
 
 % Customize \marginnote font
 \renewcommand\marginfont{\ttfamily\footnotesize}
