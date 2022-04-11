@@ -4,11 +4,11 @@
 %% COMPILE WITH XeLaTeX
 %%
 
-\documentclass{eseuri_bac_romana}
+\input{preamble-book.tex} % Include the preamble
 
 \begin{document}
-\maketitle % Insert the custom title page
-\CustomToC % Insert the custom ToC
+\input{titlepage.tex}     % Insert the custom title page
+\CustomToC                % Insert the custom ToC
 
 
 % Beginning of text
@@ -115,7 +115,6 @@
 \ApplySubIIStyling % custom section settings for this part of the doc
 \part{Extra: Modele pentru subiectul al II-lea}
 
-%\input{../2022.04.01 (Subiectul II)/content.tex}
 \input{../2022.04.01 (Subiectul II)/content/01_didascalii.tex}
 \input{../2022.04.01 (Subiectul II)/content/02_modalitati_de_caracterizare_personaj.tex}
 \input{../2022.04.01 (Subiectul II)/content/03_rolul_interogatiilor_retorice.tex}

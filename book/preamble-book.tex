@@ -1,0 +1,29 @@
+\documentclass[
+ 12pt,                       % Font size
+ a4paper                     % Paper type
+]{book}
+
+% Packages
+\usepackage{../my_style}     % My custom stylings
+\usepackage{graphicx}        % Image support
+
+% Image path
+\graphicspath{ {../img/} }
+
+% Custom commands
+% Format: \newcommand{\command}[variable]{action #variable}
+\newcommand{\operatitle}{}                                           % to not get errors
+\newcommand{\operaauthor}{}                                          % to not get errors
+\renewcommand{\HeaderLEText}{Eseuri pentru bacalaureat}              % header text
+\renewcommand{\HeaderROText}{\operatitle\ -- \operaauthor}           % header text
+\newcommand{\ApplySubIIStyling}                                      % custom styling for a part of the document
+{
+  %\setcounter{tocdepth}{0} % Now begin allowing sections to appear
+  \addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+  \setcounter{tocdepth}{1}
+  \setcounter{section}{0}
+  %\newcommand{\sectionbreak}{\ifnum\value{section}>0 \clearpage\fi} % sections on new page
+}
+
+% ToC customization
+\setcounter{tocdepth}{0} % Make only chapters appear in ToC

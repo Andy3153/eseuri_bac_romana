@@ -40,44 +40,17 @@
 %% 69.5. de facut aia cu footnoteize in sectiuni
 %%
 
-
 \documentclass[
- 12pt,                        % Font size
- a4paper                      % Paper type
+ 12pt,                       % Font size
+ a4paper                     % Paper type
 ]{article}
 
 
 % Packages
-\usepackage[
- margin=2.7cm,                % Margin size
- marginparwidth=2cm,          % Margin note size
- marginparsep=3mm             % Space between margin and text
-]{geometry}
-%\usepackage[utf8]{inputenc} % UTF-8 support, disabled because of switch to XeLaTeX
-%\usepackage[T1]{fontenc}    % Proper hyphenation, disabled because of switch to XeLaTeX
-\usepackage[romanian]{babel} % Romanian characters support
-\usepackage{indentfirst}     % Add paragraph indentation even after a section
-\usepackage{marginnote}      % Notes on the margins of a document (more advanced \marginpar)
-\usepackage{titlesec}        % Customize titles
-%\usepackage{ulem}            % More underlines
-\usepackage[dash,dot]{dashundergaps}
-
-
-% Custom format for titles, sections, subsections etc.
-\titleformat*{\section}{\large\bfseries}
-\titleformat{\subsection}{\normalfont\normalfont\bfseries}{}{1.5em}{}
-
-
-% Page numbering
-%\pagenumbering{gobble} % uncomment if you want to disable it
-
+\usepackage{../../my_style} % My custom stylings
 
 % Custom commands
 % Format: \newcommand{\command}[variable]{action #variable}
-\newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}} % Roman numerals
-\newcommand{\textbfit}[1]{\textbf{\textit{#1}}}                      % combine bold and italic
-\newcommand{\ex}[1]{\dashuline{\texttt{\footnotesize#1}}}                              % things to be filled by the reader
-\newcommand{\comment}[1]{}                                           % comments
 \newcommand{\operatitle}{}                                           % to not get errors
 \newcommand{\operaauthor}{}                                          % to not get errors
 \newcommand{\ApplySubIIStyling}                                      % custom styling for a part of the document
@@ -86,20 +59,8 @@
  %\newcommand{\sectionbreak}{\ifnum\value{section}>0 \clearpage\fi}
 }
 
-
-% Customize \marginnote font
-\renewcommand\marginfont{\ttfamily\footnotesize}
-
-
-% Make \ttfamily hyphenate words for the margin notes
-\DeclareFontFamily{OT1}{cmtt}{\hyphenchar\font=-1}
-\DeclareFontFamily{\encodingdefault}{\ttdefault}{\hyphenchar\font=`\-}
-\DeclareFontFamily{T1}{cmtt}{\hyphenchar\font=45}
-
-
 % Make subsections not appear in ToC as we're using them for a completely different thing
 \setcounter{tocdepth}{1}
-
 
 % Basic document info
 \date{}   % Show no date in the title
